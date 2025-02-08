@@ -1,0 +1,16 @@
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\bin\Debug\ExamManagmentSystem.exe.config
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\bin\Debug\ExamManagmentSystem.exe
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\bin\Debug\ExamManagmentSystem.pdb
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.csproj.AssemblyReference.cache
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.Form1.resources
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.Properties.Resources.resources
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.csproj.GenerateResource.cache
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.csproj.CoreCompileInputs.cache
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.exe
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.pdb
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\bin\Debug\Guna.UI2.dll
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamMana.E3E14F3D.Up2Date
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.InstDashbord.resources
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.StudDashboard.resources
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.Instructor.resources
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.Instructor_UsrCtrl.UC_GenerateExam.resources
