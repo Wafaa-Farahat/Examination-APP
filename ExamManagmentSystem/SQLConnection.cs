@@ -12,7 +12,7 @@ namespace ExamManagmentSystem
     {
         public static SqlConnection ConnectToSQL()
         {
-            string ConnectionString = "data source=DESKTOP-GN7HN93\\SQLEXPRESS; database=5th edition; integrated security=True";
+            string ConnectionString = @"Server=DESKTOP-K467VME\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
 
             try
             {
