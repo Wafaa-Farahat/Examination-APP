@@ -52,6 +52,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Instructor_UsrCtrl\UC_CoursesList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Instructor_UsrCtrl\UC_CoursesList.Designer.cs">
+      <DependentUpon>UC_CoursesList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instructor_UsrCtrl\UC_StudentsResults.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Instructor_UsrCtrl\UC_StudentsResults.Designer.cs">
+      <DependentUpon>UC_StudentsResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instructor_UsrCtrl\UC_ViewQuestion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Instructor_UsrCtrl\UC_ViewQuestion.Designer.cs">
+      <DependentUpon>UC_ViewQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instructor_UsrCtrl\UC_ViewRegisteredStudents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Instructor_UsrCtrl\UC_ViewRegisteredStudents.Designer.cs">
+      <DependentUpon>UC_ViewRegisteredStudents.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +115,18 @@
     <Compile Include="Student.Designer.cs">
       <DependentUpon>Student.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Instructor_UsrCtrl\UC_CoursesList.resx">
+      <DependentUpon>UC_CoursesList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instructor_UsrCtrl\UC_StudentsResults.resx">
+      <DependentUpon>UC_StudentsResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instructor_UsrCtrl\UC_ViewQuestion.resx">
+      <DependentUpon>UC_ViewQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instructor_UsrCtrl\UC_ViewRegisteredStudents.resx">
+      <DependentUpon>UC_ViewRegisteredStudents.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>

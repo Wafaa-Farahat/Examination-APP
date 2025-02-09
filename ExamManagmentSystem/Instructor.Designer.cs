@@ -41,8 +41,16 @@
             this.insUsernameLabel = new System.Windows.Forms.Label();
             this.insProfilePictureBox = new System.Windows.Forms.PictureBox();
             this.instHomePanel = new System.Windows.Forms.Panel();
-            this.uC_GenerateExam1 = new ExamManagmentSystem.Instructor_UsrCtrl.UC_GenerateExam();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.uC_CoursesList1 = new ExamManagmentSystem.Instructor_UsrCtrl.UC_CoursesList();
+            this.uC_StudentsResults1 = new ExamManagmentSystem.Instructor_UsrCtrl.UC_StudentsResults();
+            this.uC_ViewRegisteredStudents1 = new ExamManagmentSystem.Instructor_UsrCtrl.UC_ViewRegisteredStudents();
+            this.uC_ViewQuestion1 = new ExamManagmentSystem.Instructor_UsrCtrl.UC_ViewQuestion();
+            this.uC_GenerateExam1 = new ExamManagmentSystem.Instructor_UsrCtrl.UC_GenerateExam();
             this.insMenuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.insProfilePictureBox)).BeginInit();
             this.instHomePanel.SuspendLayout();
@@ -136,6 +144,7 @@
             this.guna2Button5.Text = "Courses List";
             this.guna2Button5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button5.TextOffset = new System.Drawing.Point(15, 0);
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
             // btnViewCourseResult
             // 
@@ -157,9 +166,10 @@
             this.btnViewCourseResult.Name = "btnViewCourseResult";
             this.btnViewCourseResult.Size = new System.Drawing.Size(284, 45);
             this.btnViewCourseResult.TabIndex = 22;
-            this.btnViewCourseResult.Text = "Courses Results";
+            this.btnViewCourseResult.Text = "Students Results";
             this.btnViewCourseResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnViewCourseResult.TextOffset = new System.Drawing.Point(14, 0);
+            this.btnViewCourseResult.Click += new System.EventHandler(this.btnViewCourseResult_Click);
             // 
             // btnViewStud
             // 
@@ -183,6 +193,7 @@
             this.btnViewStud.TabIndex = 21;
             this.btnViewStud.Text = "View Registered Students";
             this.btnViewStud.TextOffset = new System.Drawing.Point(17, 0);
+            this.btnViewStud.Click += new System.EventHandler(this.btnViewStud_Click);
             // 
             // btnViewQues
             // 
@@ -204,7 +215,7 @@
             this.btnViewQues.Name = "btnViewQues";
             this.btnViewQues.Size = new System.Drawing.Size(284, 45);
             this.btnViewQues.TabIndex = 20;
-            this.btnViewQues.Text = "View All Questions";
+            this.btnViewQues.Text = "View Questions";
             this.btnViewQues.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnViewQues.TextOffset = new System.Drawing.Point(20, 0);
             this.btnViewQues.Click += new System.EventHandler(this.guna2Button2_Click);
@@ -261,12 +272,69 @@
             // instHomePanel
             // 
             this.instHomePanel.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.instHomePanel.Controls.Add(this.uC_CoursesList1);
+            this.instHomePanel.Controls.Add(this.uC_StudentsResults1);
+            this.instHomePanel.Controls.Add(this.uC_ViewRegisteredStudents1);
+            this.instHomePanel.Controls.Add(this.uC_ViewQuestion1);
             this.instHomePanel.Controls.Add(this.uC_GenerateExam1);
             this.instHomePanel.Location = new System.Drawing.Point(307, 0);
             this.instHomePanel.Name = "instHomePanel";
             this.instHomePanel.Size = new System.Drawing.Size(1056, 886);
             this.instHomePanel.TabIndex = 1;
             this.instHomePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.TargetControl = this.instHomePanel;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.TargetControl = this.instHomePanel;
+            // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.TargetControl = this.instHomePanel;
+            // 
+            // guna2Elipse4
+            // 
+            this.guna2Elipse4.TargetControl = this.instHomePanel;
+            // 
+            // guna2Elipse5
+            // 
+            this.guna2Elipse5.TargetControl = this.instHomePanel;
+            // 
+            // uC_CoursesList1
+            // 
+            this.uC_CoursesList1.BackColor = System.Drawing.Color.White;
+            this.uC_CoursesList1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.uC_CoursesList1.Location = new System.Drawing.Point(0, 1);
+            this.uC_CoursesList1.Name = "uC_CoursesList1";
+            this.uC_CoursesList1.Size = new System.Drawing.Size(1056, 886);
+            this.uC_CoursesList1.TabIndex = 28;
+            // 
+            // uC_StudentsResults1
+            // 
+            this.uC_StudentsResults1.BackColor = System.Drawing.Color.White;
+            this.uC_StudentsResults1.Location = new System.Drawing.Point(0, 1);
+            this.uC_StudentsResults1.Name = "uC_StudentsResults1";
+            this.uC_StudentsResults1.Size = new System.Drawing.Size(1056, 886);
+            this.uC_StudentsResults1.TabIndex = 27;
+            // 
+            // uC_ViewRegisteredStudents1
+            // 
+            this.uC_ViewRegisteredStudents1.BackColor = System.Drawing.Color.White;
+            this.uC_ViewRegisteredStudents1.Location = new System.Drawing.Point(0, 1);
+            this.uC_ViewRegisteredStudents1.Name = "uC_ViewRegisteredStudents1";
+            this.uC_ViewRegisteredStudents1.Size = new System.Drawing.Size(1056, 886);
+            this.uC_ViewRegisteredStudents1.TabIndex = 26;
+            // 
+            // uC_ViewQuestion1
+            // 
+            this.uC_ViewQuestion1.BackColor = System.Drawing.Color.White;
+            this.uC_ViewQuestion1.Location = new System.Drawing.Point(0, 1);
+            this.uC_ViewQuestion1.Name = "uC_ViewQuestion1";
+            this.uC_ViewQuestion1.Size = new System.Drawing.Size(1056, 886);
+            this.uC_ViewQuestion1.TabIndex = 1;
             // 
             // uC_GenerateExam1
             // 
@@ -276,10 +344,6 @@
             this.uC_GenerateExam1.Size = new System.Drawing.Size(1056, 886);
             this.uC_GenerateExam1.TabIndex = 0;
             this.uC_GenerateExam1.Load += new System.EventHandler(this.uC_GenerateExam1_Load);
-            // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.TargetControl = this.instHomePanel;
             // 
             // Instructor
             // 
@@ -316,5 +380,13 @@
         private Guna.UI2.WinForms.Guna2Button btnExitInst;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Instructor_UsrCtrl.UC_GenerateExam uC_GenerateExam1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
+        private Instructor_UsrCtrl.UC_ViewQuestion uC_ViewQuestion1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
+        private Instructor_UsrCtrl.UC_StudentsResults uC_StudentsResults1;
+        private Instructor_UsrCtrl.UC_ViewRegisteredStudents uC_ViewRegisteredStudents1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse5;
+        private Instructor_UsrCtrl.UC_CoursesList uC_CoursesList1;
     }
 }

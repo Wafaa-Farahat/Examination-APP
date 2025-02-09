@@ -21,6 +21,10 @@ namespace ExamManagmentSystem
             instId = id;
         }
 
+        public Instructor()
+        {
+        }
+
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -33,7 +37,8 @@ namespace ExamManagmentSystem
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-
+            uC_ViewQuestion1.Visible = true;
+            uC_ViewQuestion1.BringToFront();
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -58,6 +63,10 @@ namespace ExamManagmentSystem
         {
             uC_GenerateExam1.Visible = false;
             insUsernameLabel.Text=GetInstName(instId);
+            uC_ViewQuestion1.Visible=false;
+            uC_ViewRegisteredStudents1.Visible=false;
+            uC_StudentsResults1.Visible=false;
+            uC_CoursesList1.Visible=false;
 
         }
 
@@ -104,6 +113,24 @@ namespace ExamManagmentSystem
         private void insUsernameLabel_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnViewStud_Click(object sender, EventArgs e)
+        {
+            uC_ViewRegisteredStudents1.Visible=true;
+            uC_ViewRegisteredStudents1.BringToFront();
+        }
+
+        private void btnViewCourseResult_Click(object sender, EventArgs e)
+        {
+            uC_ViewRegisteredStudents1.Visible = true;
+            uC_StudentsResults1.BringToFront();
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            uC_CoursesList1.Visible=true;
+            uC_CoursesList1.BringToFront();    
         }
     }
 }

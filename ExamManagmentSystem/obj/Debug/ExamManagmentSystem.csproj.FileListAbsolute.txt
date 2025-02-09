@@ -15,3 +15,7 @@ D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\
 D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.Student.resources
 D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.Login.resources
 D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.Student_UsrCtrl.UC_ViewCourses.resources
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.Instructor_UsrCtrl.UC_ViewQuestion.resources
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.Instructor_UsrCtrl.UC_StudentsResults.resources
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.Instructor_UsrCtrl.UC_ViewRegisteredStudents.resources
+D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.Instructor_UsrCtrl.UC_CoursesList.resources
