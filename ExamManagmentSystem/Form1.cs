@@ -152,8 +152,8 @@ namespace ExamManagmentSystem
             if (txtEnrolmentNum.Text == "1500" && stdPassword.Text == "441")
             {
                 wrongLabelStd.Visible = false;
-                StudDashboard std = new StudDashboard();  
-                std.Show();
+                //StudDashboard std = new StudDashboard();  
+                //std.Show();
                 this.Hide();
             }
             else
