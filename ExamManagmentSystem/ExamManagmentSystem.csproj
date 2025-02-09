@@ -52,11 +52,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="InstDashbord.cs">
       <SubType>Form</SubType>
@@ -84,8 +84,26 @@
     <Compile Include="StudDashboard.Designer.cs">
       <DependentUpon>StudDashboard.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Student-UsrCtrl\UC_TakeExam.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Student-UsrCtrl\UC_TakeExam.Designer.cs">
+      <DependentUpon>UC_TakeExam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student-UsrCtrl\UC_ViewCourses.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Student-UsrCtrl\UC_ViewCourses.Designer.cs">
+      <DependentUpon>UC_ViewCourses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student.Designer.cs">
+      <DependentUpon>Student.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InstDashbord.resx">
       <DependentUpon>InstDashbord.cs</DependentUpon>
@@ -107,6 +125,15 @@
     </Compile>
     <EmbeddedResource Include="StudDashboard.resx">
       <DependentUpon>StudDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student-UsrCtrl\UC_TakeExam.resx">
+      <DependentUpon>UC_TakeExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student-UsrCtrl\UC_ViewCourses.resx">
+      <DependentUpon>UC_ViewCourses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student.resx">
+      <DependentUpon>Student.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
