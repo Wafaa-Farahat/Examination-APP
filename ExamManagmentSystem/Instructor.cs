@@ -77,11 +77,22 @@ namespace ExamManagmentSystem
 
         private void btnLogoutIns_Click(object sender, EventArgs e)
         {
-            Login insLog = new Login();
-            insLog.Show();
-            //insLog.txtSelectUser.SelectedIndex = 0;
-            this.Hide();
+            // Find the existing Login form
+            Login loginForm = Application.OpenForms.OfType<Login>().FirstOrDefault();
+
+            if (loginForm != null)
+            {
+                loginForm.Show();  // Show the existing login form if it's hidden
+            }
+            else
+            {
+                loginForm = new Login();  // Create a new instance if not found
+                loginForm.Show();
+            }
+
+            this.Close();  // Close the Instructor form
         }
+
 
 
         private string GetInstName(int instId)

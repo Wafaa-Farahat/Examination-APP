@@ -43,6 +43,8 @@
             this.uC_TakeExam1 = new ExamManagmentSystem.Student_UsrCtrl.UC_TakeExam();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.uC_ExamScreen1 = new ExamManagmentSystem.Student_UsrCtrl.UC_ExamScreen();
             this.stdMenuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.insProfilePictureBox)).BeginInit();
             this.stdHomePanel.SuspendLayout();
@@ -62,6 +64,7 @@
             this.stdMenuPanel.Name = "stdMenuPanel";
             this.stdMenuPanel.Size = new System.Drawing.Size(308, 886);
             this.stdMenuPanel.TabIndex = 1;
+            this.stdMenuPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.stdMenuPanel_Paint);
             // 
             // btnExitStd
             // 
@@ -211,6 +214,7 @@
             // stdHomePanel
             // 
             this.stdHomePanel.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.stdHomePanel.Controls.Add(this.uC_ExamScreen1);
             this.stdHomePanel.Controls.Add(this.uC_ViewCourses1);
             this.stdHomePanel.Controls.Add(this.uC_TakeExam1);
             this.stdHomePanel.Location = new System.Drawing.Point(307, 0);
@@ -241,6 +245,18 @@
             // guna2Elipse2
             // 
             this.guna2Elipse2.TargetControl = this.stdHomePanel;
+            // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.TargetControl = this.stdHomePanel;
+            // 
+            // uC_ExamScreen1
+            // 
+            this.uC_ExamScreen1.BackColor = System.Drawing.Color.White;
+            this.uC_ExamScreen1.Location = new System.Drawing.Point(0, 1);
+            this.uC_ExamScreen1.Name = "uC_ExamScreen1";
+            this.uC_ExamScreen1.Size = new System.Drawing.Size(1056, 886);
+            this.uC_ExamScreen1.TabIndex = 2;
             // 
             // Student
             // 
@@ -277,5 +293,7 @@
         private Student_UsrCtrl.UC_TakeExam uC_TakeExam1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
         private Student_UsrCtrl.UC_ViewCourses uC_ViewCourses1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
+        private Student_UsrCtrl.UC_ExamScreen uC_ExamScreen1;
     }
 }

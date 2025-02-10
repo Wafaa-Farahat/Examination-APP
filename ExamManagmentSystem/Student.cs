@@ -23,12 +23,22 @@ namespace ExamManagmentSystem
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            Login stdLog = new Login();
-            stdLog.Show();
-            //stdLog.txtSelectUser.SelectedIndex = 1;
-            this.Hide();
+            // Show the login screen again
+            Login loginForm = Application.OpenForms.OfType<Login>().FirstOrDefault();
 
+            if (loginForm != null)
+            {
+                loginForm.Show();  // Show the existing login form if it was hidden
+            }
+            else
+            {
+                loginForm = new Login();  // Create a new instance if it's not found
+                loginForm.Show();
+            }
+
+            this.Close();  // Close the current form (Student or Instructor)
         }
+
 
         private void btnExitStd_Click(object sender, EventArgs e)
         {
@@ -39,6 +49,8 @@ namespace ExamManagmentSystem
         {
             uC_TakeExam1.Visible=true;
             uC_TakeExam1.BringToFront();
+            uC_TakeExam1.LoadStudentCourses(studentId);
+
         }
 
         private void Student_Load(object sender, EventArgs e)
@@ -46,6 +58,7 @@ namespace ExamManagmentSystem
             uC_TakeExam1.Visible=false;
             uC_ViewCourses1.Visible=false;
             stdUsernameLabel.Text = GetStudentName(studentId);
+            uC_ExamScreen1.Visible=false;
         }
 
         private void btnViewCourses_Click(object sender, EventArgs e)
@@ -81,6 +94,9 @@ namespace ExamManagmentSystem
             return studentName;
         }
 
+        private void stdMenuPanel_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
     }
 }

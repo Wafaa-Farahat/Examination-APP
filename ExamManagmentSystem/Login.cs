@@ -29,9 +29,9 @@ namespace ExamManagmentSystem
         private void Form1_Load(object sender, EventArgs e)
         {
            
-            txtSelectUser.SelectedIndex = 0;
-            instPanel.Visible=true;
-            stdPanel.Visible=false;
+            txtSelectUser.SelectedIndex = 1;
+            instPanel.Visible=false;
+            stdPanel.Visible= true;
             wrongLabel.Visible=false;
             wrongLabelStd.Visible = false;
         }
