@@ -58,7 +58,11 @@ namespace ExamManagmentSystem
         private string GetStudentName(int studentId)
         {
             string studentName = "Student"; // Default name
+<<<<<<< Updated upstream
             string connectionString = @"Server=DESKTOP-K467VME\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+=======
+            string connectionString = "data source=DESKTOP-GN7HN93\\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+>>>>>>> Stashed changes
 
             using (SqlConnection con = new SqlConnection(connectionString))
             {
