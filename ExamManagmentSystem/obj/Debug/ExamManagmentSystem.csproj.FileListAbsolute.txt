@@ -20,7 +20,10 @@ D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\
 D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.Instructor_UsrCtrl.UC_ViewRegisteredStudents.resources
 D:\0- ITI intake 45\Adv SQL\ExamGUI\ExamManagmentSystem\ExamManagmentSystem\obj\Debug\ExamManagmentSystem.Instructor_UsrCtrl.UC_CoursesList.resources
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 D:\ITI\AdvSQL\Examination-APP-main\ExamManagmentSystem\bin\Debug\ExamManagmentSystem.exe.config
 D:\ITI\AdvSQL\Examination-APP-main\ExamManagmentSystem\bin\Debug\ExamManagmentSystem.exe
 D:\ITI\AdvSQL\Examination-APP-main\ExamManagmentSystem\bin\Debug\ExamManagmentSystem.pdb
@@ -95,4 +98,7 @@ D:\ITI\AdvSQL\Examination-APP-main\ExamManagmentSystem\bin\Debug\ru\Microsoft.Re
 D:\ITI\AdvSQL\Examination-APP-main\ExamManagmentSystem\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 D:\ITI\AdvSQL\Examination-APP-main\ExamManagmentSystem\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 D:\ITI\AdvSQL\Examination-APP-main\ExamManagmentSystem\bin\Debug\Reports\Exam_Questions.rdl
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

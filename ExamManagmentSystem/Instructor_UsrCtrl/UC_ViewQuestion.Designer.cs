@@ -31,11 +31,17 @@
             this.components = new System.ComponentModel.Container();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
             this.selectModelLabel = new System.Windows.Forms.Label();
             this.examModelsList = new Guna.UI2.WinForms.Guna2ComboBox();
             this.btnViewExamQuestions = new Guna.UI2.WinForms.Guna2Button();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             this.SuspendLayout();
             // 
@@ -44,7 +50,10 @@
             this.guna2Elipse1.TargetControl = this;
             // 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
             // selectModelLabel
             // 
             this.selectModelLabel.AutoSize = true;
@@ -107,6 +116,9 @@
             this.reportViewer1.ZoomMode = Microsoft.Reporting.WinForms.ZoomMode.PageWidth;
             this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);
             // 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             // UC_ViewQuestion
             // 
@@ -114,10 +126,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.Name = "UC_ViewQuestion";
             this.Size = new System.Drawing.Size(1056, 886);
             this.ResumeLayout(false);
 =======
+=======
+>>>>>>> Stashed changes
             this.Controls.Add(this.reportViewer1);
             this.Controls.Add(this.btnViewExamQuestions);
             this.Controls.Add(this.examModelsList);
@@ -127,6 +142,9 @@
             this.Load += new System.EventHandler(this.UC_ViewQuestion_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
         }
@@ -135,11 +153,17 @@
 
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
         private System.Windows.Forms.Label selectModelLabel;
         private Guna.UI2.WinForms.Guna2ComboBox examModelsList;
         private Guna.UI2.WinForms.Guna2Button btnViewExamQuestions;
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 }

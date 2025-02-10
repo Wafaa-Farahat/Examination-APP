@@ -3,7 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 using System.Drawing;
+=======
+using System.Data.SqlClient;
+using System.Drawing;
+using System.IO;
+>>>>>>> Stashed changes
 =======
 using System.Data.SqlClient;
 using System.Drawing;
@@ -14,6 +20,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+using Microsoft.Reporting.WinForms;
+>>>>>>> Stashed changes
 =======
 using Microsoft.Reporting.WinForms;
 >>>>>>> Stashed changes
@@ -27,7 +37,10 @@ namespace ExamManagmentSystem.Instructor_UsrCtrl
             InitializeComponent();
         }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 
         private void examModelsList_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -134,6 +147,9 @@ namespace ExamManagmentSystem.Instructor_UsrCtrl
         {
             
         }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 }

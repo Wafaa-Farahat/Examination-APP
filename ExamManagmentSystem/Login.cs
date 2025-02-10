@@ -94,7 +94,11 @@ namespace ExamManagmentSystem
 
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         //private string connectionString = @"Server=DESKTOP-K467VME\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+=======
+        //private string connectionString = @"Server=DESKTOP-GN7HN93\\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+>>>>>>> Stashed changes
 =======
         //private string connectionString = @"Server=DESKTOP-GN7HN93\\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
 >>>>>>> Stashed changes
@@ -117,7 +121,11 @@ namespace ExamManagmentSystem
         //}
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         private string connectionString = @"Server=DESKTOP-K467VME\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+=======
+        private string connectionString = "data source=DESKTOP-GN7HN93\\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+>>>>>>> Stashed changes
 =======
         private string connectionString = "data source=DESKTOP-GN7HN93\\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
 >>>>>>> Stashed changes

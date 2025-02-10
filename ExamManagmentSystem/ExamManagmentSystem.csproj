@@ -116,6 +116,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLConnection.cs" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    <Compile Include="SqlServerTypes\Loader.cs" />
+>>>>>>> Stashed changes
 =======
     <Compile Include="SqlServerTypes\Loader.cs" />
 >>>>>>> Stashed changes
@@ -170,12 +174,7 @@
     <EmbeddedResource Include="Student-UsrCtrl\UC_TakeExam.resx">
       <DependentUpon>UC_TakeExam.cs</DependentUpon>
 <<<<<<< Updated upstream
-    </EmbeddedResource>
-    <EmbeddedResource Include="Student-UsrCtrl\UC_ViewCourses.resx">
-      <DependentUpon>UC_ViewCourses.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Student.resx">
-      <DependentUpon>Student.cs</DependentUpon>
+<<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes
     </EmbeddedResource>
@@ -184,6 +183,17 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Student.resx">
       <DependentUpon>Student.cs</DependentUpon>
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student-UsrCtrl\UC_ViewCourses.resx">
+      <DependentUpon>UC_ViewCourses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student.resx">
+      <DependentUpon>Student.cs</DependentUpon>
+=======
+>>>>>>> Stashed changes
     </EmbeddedResource>
     <Content Include="Reports\Exam_Questions.rdl">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
