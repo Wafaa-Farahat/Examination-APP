@@ -93,7 +93,11 @@ namespace ExamManagmentSystem
         }
 
 
+<<<<<<< Updated upstream
         //private string connectionString = @"Server=DESKTOP-K467VME\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+=======
+        //private string connectionString = @"Server=DESKTOP-GN7HN93\\SQLEXPRESS;Database=Examination_System;Integrated Security=True;";
+>>>>>>> Stashed changes
         //private bool AuthenticateUser(string tableName, string username, string password)
         //{
         //    using (SqlConnection con = new SqlConnection(connectionString))
@@ -112,7 +116,11 @@ namespace ExamManagmentSystem
         //    }
         //}
 
+<<<<<<< Updated upstream
         private string connectionString = @"Server=DESKTOP-K467VME\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+=======
+        private string connectionString = "data source=DESKTOP-GN7HN93\\SQLEXPRESS;Database=Examination_System;Integrated Security=True;";
+>>>>>>> Stashed changes
         private int? AuthenticateUser(string tableName, string username, string password, out string userType)
         {
             using (SqlConnection con = new SqlConnection(connectionString))

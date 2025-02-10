@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\",
+  "WorkspaceRootPath": "D:\\ITI\\SQL_App\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\exammanagmentsystem\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:exammanagmentsystem\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -69,6 +70,42 @@
     {
       "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\exammanagmentsystem\\student-usrctrl\\uc_viewcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:exammanagmentsystem\\student-usrctrl\\uc_viewcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
+      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|D:\\ITI\\SQL_App\\exammanagmentsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:exammanagmentsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|d:\\iti\\sql_app\\exammanagmentsystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:exammanagmentsystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|d:\\iti\\sql_app\\exammanagmentsystem\\sqlconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:exammanagmentsystem\\sqlconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|d:\\iti\\sql_app\\exammanagmentsystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:exammanagmentsystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|d:\\iti\\sql_app\\exammanagmentsystem\\reports\\exam_questions.rdl||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:exammanagmentsystem\\reports\\exam_questions.rdl||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|D:\\ITI\\SQL_App\\exammanagmentsystem\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:exammanagmentsystem\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|d:\\iti\\sql_app\\exammanagmentsystem\\instructor_usrctrl\\uc_generateexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:exammanagmentsystem\\instructor_usrctrl\\uc_generateexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|D:\\ITI\\SQL_App\\exammanagmentsystem\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:exammanagmentsystem\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|D:\\ITI\\SQL_App\\exammanagmentsystem\\instructor_usrctrl\\uc_generateexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:exammanagmentsystem\\instructor_usrctrl\\uc_generateexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -77,8 +114,13 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
+<<<<<<< Updated upstream
           "DockedWidth": 200,
           "SelectedChildIndex": -1,
+=======
+          "DockedWidth": 247,
+          "SelectedChildIndex": 7,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -96,11 +138,80 @@
           "Children": [
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 0,
-              "Title": "Instructor.cs [Design]",
-              "DocumentMoniker": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor.cs",
+=======
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\Student.cs",
+              "RelativeDocumentMoniker": "ExamManagmentSystem\\Student.cs",
+              "ToolTip": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\Student.cs",
+              "RelativeToolTip": "ExamManagmentSystem\\Student.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwDIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T10:45:42.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SQLConnection.cs",
+              "DocumentMoniker": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\SQLConnection.cs",
+              "RelativeDocumentMoniker": "ExamManagmentSystem\\SQLConnection.cs",
+              "ToolTip": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\SQLConnection.cs",
+              "RelativeToolTip": "ExamManagmentSystem\\SQLConnection.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAA4AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T10:45:38.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\Login.cs",
+              "RelativeDocumentMoniker": "ExamManagmentSystem\\Login.cs",
+              "ToolTip": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\Login.cs",
+              "RelativeToolTip": "ExamManagmentSystem\\Login.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAawHIAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T10:45:24.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Exam_Questions.rdl",
+              "DocumentMoniker": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\Reports\\Exam_Questions.rdl",
+              "RelativeDocumentMoniker": "ExamManagmentSystem\\Reports\\Exam_Questions.rdl",
+              "ToolTip": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\Reports\\Exam_Questions.rdl",
+              "RelativeToolTip": "ExamManagmentSystem\\Reports\\Exam_Questions.rdl",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABYAAABhAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALwSURBVDhPbZPPa1xVHMU/3/tmmkwmje1kEg3tQiljiyJ2140LF0VxUYmga1eVuFEsCkJ3iguhIO4FRdcK/gsFt6Xgom5ciBRbimJImMm8d\u002B/3uLj3vbwEL3zfD96953vO95xnnFq/3r3Fldl0LS4e3a6f/PSBmoMxIAnADAGC/M4S\u002BA64fX3v4J97D6JCC7Q9HfPzD\u002B9yZTY9n5J9JMJ7aDDuDrfVPUmgM5IuybVG7mcBYGs65usvbvDG9cs7KdmHYLcQm5IKmBkyUwvTq9KkWwHgm6/e4e03X96R2/tge8B5aDdL/cNyTE6W7nkE0jFuAHjt1csbqd6/6fHoptJiy9MC1X8jr5ED3hN5ilHueczUAPbvDp73sPkjFl6kqMQbw2MG7HhmZu6QlkIJPHH/aJ87seYX0B8BQGHdlJaVmgWKc9TMUWqQZ0pZ8zGLOIfDR3DwGA6fcDXWfCuxJ1mWTGGRqdCLR74VsC4y7pBSGYGDnKHERF5m6DLIH7Lechc6Ob/ed3fwBO7CU5bfATYkOuf6cfBCTkhuMNxkuDFj9MyMyWzG2YsXsWqlzzQDmtvxqBzkQo56ZU1EGk4IK1sMxxNGk3OMtzfRcJXYFMauDBjcuhl1eWufnbabyRPyJR6P8LjEU1M6nmKo/oCFFVCTMFFh1VnC8BxWrQJV3pcixAYlx9v5e3E5BGWZnRP5KhcaTFm58Dobz95g7elrDJ56gbC6jWKDp4i7Q8p7PRXJJV5tPHKYhdyRwgbVaIfBaEJ1Zp0wXCdUI\u002BQN8rpLh5cE5NjUgHemWBchB5djxHK4rQaPNR4j7gkXKn9NkWwmqcgUiDy/1hBUg5qu5A1KEaWmzaCdMCV5OATu4fyGegUPDHsobxzVhWWDPKJUnzClNSYAVF49HmjwqUfbJbHrkV13dlcml95av/DSHUgLtQxpwOtiSg5gPzbW\u002BvF/65O9q3z\u002B8bVXhL6H9FwOJtT//sn84X1SdP76PdIcal4ZnwFf/gfAWXM6JKcdbwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-02-10T10:45:15.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\Instructor.cs",
               "RelativeDocumentMoniker": "ExamManagmentSystem\\Instructor.cs",
-              "ToolTip": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor.cs [Design]",
+              "ToolTip": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\Instructor.cs",
+              "RelativeToolTip": "ExamManagmentSystem\\Instructor.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAqwFkAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T16:43:08.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+>>>>>>> Stashed changes
+              "Title": "Instructor.cs [Design]",
+              "DocumentMoniker": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\Instructor.cs",
+              "RelativeDocumentMoniker": "ExamManagmentSystem\\Instructor.cs",
+              "ToolTip": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\Instructor.cs [Design]",
               "RelativeToolTip": "ExamManagmentSystem\\Instructor.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T19:04:10.014Z",
@@ -125,12 +236,22 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
               "Title": "UC_StudentsResults.cs [Design]",
               "DocumentMoniker": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_StudentsResults.cs",
               "RelativeDocumentMoniker": "ExamManagmentSystem\\Instructor_UsrCtrl\\UC_StudentsResults.cs",
               "ToolTip": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_StudentsResults.cs [Design]",
               "RelativeToolTip": "ExamManagmentSystem\\Instructor_UsrCtrl\\UC_StudentsResults.cs [Design]",
+=======
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\Program.cs",
+              "RelativeDocumentMoniker": "ExamManagmentSystem\\Program.cs",
+              "ToolTip": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\Program.cs",
+              "RelativeToolTip": "ExamManagmentSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T20:28:55.249Z",
               "EditorCaption": " [Design]"
@@ -174,6 +295,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
               "Title": "Instructor.cs",
               "DocumentMoniker": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor.cs",
@@ -284,10 +406,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
+=======
+              "DocumentIndex": 8,
+>>>>>>> Stashed changes
               "Title": "UC_GenerateExam.cs [Design]",
-              "DocumentMoniker": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs",
+              "DocumentMoniker": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs",
               "RelativeDocumentMoniker": "ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs",
-              "ToolTip": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs [Design]",
+              "ToolTip": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs [Design]",
               "RelativeToolTip": "ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T12:38:13.644Z",
@@ -295,13 +420,21 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 8,
+=======
+              "DocumentIndex": 6,
+>>>>>>> Stashed changes
               "Title": "UC_GenerateExam.cs",
-              "DocumentMoniker": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs",
+              "DocumentMoniker": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs",
               "RelativeDocumentMoniker": "ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs",
-              "ToolTip": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs",
+              "ToolTip": "D:\\ITI\\SQL_App\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs",
               "RelativeToolTip": "ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAADEAAAAAAAAAAAAkwBYAAAATAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T16:40:12.632Z",
               "EditorCaption": ""
