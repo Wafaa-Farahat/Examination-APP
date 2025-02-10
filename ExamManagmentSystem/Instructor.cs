@@ -87,7 +87,15 @@ namespace ExamManagmentSystem
         private string GetInstName(int instId)
         {
             string instName = "Instructor"; // Default name
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
             string connectionString = @"Server=DESKTOP-K467VME\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+=======
+            string connectionString = "data source=DESKTOP-GN7HN93\\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+>>>>>>> Stashed changes
+=======
+            string connectionString = "data source=DESKTOP-GN7HN93\\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+>>>>>>> Stashed changes
 
             using (SqlConnection con = new SqlConnection(connectionString))
             {

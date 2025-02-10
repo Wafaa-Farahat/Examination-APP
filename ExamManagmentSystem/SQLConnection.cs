@@ -12,7 +12,15 @@ namespace ExamManagmentSystem
     {
         public static SqlConnection ConnectToSQL()
         {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
             string ConnectionString = @"Server=DESKTOP-K467VME\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+=======
+            string ConnectionString = "data source=DESKTOP-GN7HN93\\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+>>>>>>> Stashed changes
+=======
+            string ConnectionString = "data source=DESKTOP-GN7HN93\\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+>>>>>>> Stashed changes
 
             try
             {
