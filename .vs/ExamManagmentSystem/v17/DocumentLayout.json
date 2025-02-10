@@ -92,7 +92,7 @@
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -107,6 +107,10 @@
               "IsPinned": true
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ExamManagmentSystem.csproj",
@@ -118,10 +122,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-02-10T12:13:06.082Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
@@ -165,8 +165,7 @@
               "ToolTip": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_ViewQuestion.cs [Design]",
               "RelativeToolTip": "ExamManagmentSystem\\Instructor_UsrCtrl\\UC_ViewQuestion.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T20:13:38.876Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-09T20:13:38.876Z"
             },
             {
               "$type": "Document",
