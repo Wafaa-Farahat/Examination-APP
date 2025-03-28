@@ -112,7 +112,7 @@ namespace ExamManagmentSystem
         //    }
         //}
 
-        private string connectionString = @"Server=DESKTOP-K467VME\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+        private string connectionString = @"Server=SOLI\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
         private int? AuthenticateUser(string tableName, string username, string password, out string userType)
         {
             using (SqlConnection con = new SqlConnection(connectionString))

@@ -39,12 +39,15 @@
             this.stdUsernameLabel = new System.Windows.Forms.Label();
             this.insProfilePictureBox = new System.Windows.Forms.PictureBox();
             this.stdHomePanel = new System.Windows.Forms.Panel();
-            this.uC_ViewCourses1 = new ExamManagmentSystem.Student_UsrCtrl.UC_ViewCourses();
-            this.uC_TakeExam1 = new ExamManagmentSystem.Student_UsrCtrl.UC_TakeExam();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.uC_ViewResults1 = new ExamManagmentSystem.Student_UsrCtrl.UC_ViewResults();
             this.uC_ExamScreen1 = new ExamManagmentSystem.Student_UsrCtrl.UC_ExamScreen();
+            this.uC_ViewCourses1 = new ExamManagmentSystem.Student_UsrCtrl.UC_ViewCourses();
+            this.uC_TakeExam1 = new ExamManagmentSystem.Student_UsrCtrl.UC_TakeExam();
+            this.uC_MyAnswers1 = new ExamManagmentSystem.Student_UsrCtrl.UC_MyAnswers();
             this.stdMenuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.insProfilePictureBox)).BeginInit();
             this.stdHomePanel.SuspendLayout();
@@ -53,6 +56,7 @@
             // stdMenuPanel
             // 
             this.stdMenuPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.stdMenuPanel.Controls.Add(this.guna2Button2);
             this.stdMenuPanel.Controls.Add(this.btnExitStd);
             this.stdMenuPanel.Controls.Add(this.btnLogoutStd);
             this.stdMenuPanel.Controls.Add(this.btnViewCourses);
@@ -161,6 +165,7 @@
             this.btnViewResults.Text = "View Results";
             this.btnViewResults.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnViewResults.TextOffset = new System.Drawing.Point(20, 0);
+            this.btnViewResults.Click += new System.EventHandler(this.btnViewResults_Click_1);
             // 
             // btnTakeExam
             // 
@@ -178,7 +183,7 @@
             this.btnTakeExam.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnTakeExam.ImageOffset = new System.Drawing.Point(10, 0);
             this.btnTakeExam.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnTakeExam.Location = new System.Drawing.Point(21, 382);
+            this.btnTakeExam.Location = new System.Drawing.Point(20, 323);
             this.btnTakeExam.Name = "btnTakeExam";
             this.btnTakeExam.Size = new System.Drawing.Size(284, 45);
             this.btnTakeExam.TabIndex = 19;
@@ -214,6 +219,8 @@
             // stdHomePanel
             // 
             this.stdHomePanel.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.stdHomePanel.Controls.Add(this.uC_MyAnswers1);
+            this.stdHomePanel.Controls.Add(this.uC_ViewResults1);
             this.stdHomePanel.Controls.Add(this.uC_ExamScreen1);
             this.stdHomePanel.Controls.Add(this.uC_ViewCourses1);
             this.stdHomePanel.Controls.Add(this.uC_TakeExam1);
@@ -221,6 +228,61 @@
             this.stdHomePanel.Name = "stdHomePanel";
             this.stdHomePanel.Size = new System.Drawing.Size(1056, 886);
             this.stdHomePanel.TabIndex = 2;
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.TargetControl = this.stdHomePanel;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.TargetControl = this.stdHomePanel;
+            // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.TargetControl = this.stdHomePanel;
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.guna2Button2.CheckedState.FillColor = System.Drawing.Color.White;
+            this.guna2Button2.CheckedState.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.SystemColors.ActiveCaption;
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
+            this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button2.ImageOffset = new System.Drawing.Point(15, 0);
+            this.guna2Button2.ImageSize = new System.Drawing.Size(25, 25);
+            this.guna2Button2.Location = new System.Drawing.Point(20, 388);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(284, 45);
+            this.guna2Button2.TabIndex = 26;
+            this.guna2Button2.Text = "My Answers";
+            this.guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button2.TextOffset = new System.Drawing.Point(20, 0);
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
+            // uC_ViewResults1
+            // 
+            this.uC_ViewResults1.BackColor = System.Drawing.Color.White;
+            this.uC_ViewResults1.Location = new System.Drawing.Point(0, 0);
+            this.uC_ViewResults1.Name = "uC_ViewResults1";
+            this.uC_ViewResults1.Size = new System.Drawing.Size(1056, 886);
+            this.uC_ViewResults1.TabIndex = 3;
+            // 
+            // uC_ExamScreen1
+            // 
+            this.uC_ExamScreen1.AutoScroll = true;
+            this.uC_ExamScreen1.AutoSize = true;
+            this.uC_ExamScreen1.BackColor = System.Drawing.Color.White;
+            this.uC_ExamScreen1.Location = new System.Drawing.Point(0, 1);
+            this.uC_ExamScreen1.Name = "uC_ExamScreen1";
+            this.uC_ExamScreen1.Size = new System.Drawing.Size(1121, 5988);
+            this.uC_ExamScreen1.TabIndex = 2;
             // 
             // uC_ViewCourses1
             // 
@@ -238,25 +300,13 @@
             this.uC_TakeExam1.Size = new System.Drawing.Size(1056, 886);
             this.uC_TakeExam1.TabIndex = 0;
             // 
-            // guna2Elipse1
+            // uC_MyAnswers1
             // 
-            this.guna2Elipse1.TargetControl = this.stdHomePanel;
-            // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.TargetControl = this.stdHomePanel;
-            // 
-            // guna2Elipse3
-            // 
-            this.guna2Elipse3.TargetControl = this.stdHomePanel;
-            // 
-            // uC_ExamScreen1
-            // 
-            this.uC_ExamScreen1.BackColor = System.Drawing.Color.White;
-            this.uC_ExamScreen1.Location = new System.Drawing.Point(0, 1);
-            this.uC_ExamScreen1.Name = "uC_ExamScreen1";
-            this.uC_ExamScreen1.Size = new System.Drawing.Size(1056, 886);
-            this.uC_ExamScreen1.TabIndex = 2;
+            this.uC_MyAnswers1.BackColor = System.Drawing.Color.White;
+            this.uC_MyAnswers1.Location = new System.Drawing.Point(0, 1);
+            this.uC_MyAnswers1.Name = "uC_MyAnswers1";
+            this.uC_MyAnswers1.Size = new System.Drawing.Size(1056, 886);
+            this.uC_MyAnswers1.TabIndex = 4;
             // 
             // Student
             // 
@@ -274,6 +324,7 @@
             this.stdMenuPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.insProfilePictureBox)).EndInit();
             this.stdHomePanel.ResumeLayout(false);
+            this.stdHomePanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -295,5 +346,8 @@
         private Student_UsrCtrl.UC_ViewCourses uC_ViewCourses1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
         private Student_UsrCtrl.UC_ExamScreen uC_ExamScreen1;
+        private Student_UsrCtrl.UC_ViewResults uC_ViewResults1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Student_UsrCtrl.UC_MyAnswers uC_MyAnswers1;
     }
 }

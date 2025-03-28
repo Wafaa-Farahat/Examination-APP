@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Windows.Forms;
+using static System.Windows.Forms.Design.AxImporter;
 
 namespace ExamManagmentSystem.Student_UsrCtrl
 {
@@ -20,6 +21,10 @@ namespace ExamManagmentSystem.Student_UsrCtrl
         private List<GroupBox> tfAnswerGroups = new List<GroupBox>();
 
         private Dictionary<int, string> studentAnswers = new Dictionary<int, string>();
+        private Dictionary<int, int> qes_order = new Dictionary<int, int>();
+        private int Qind;
+        function fn = new function();
+        String query;
 
         public UC_ExamScreen()
         {
@@ -37,7 +42,7 @@ namespace ExamManagmentSystem.Student_UsrCtrl
             this.modelId = selectedModelId;
             this.courseName = selectedCourseName;
             this.studentId = loggedInStudentId;
-
+            this.Qind = 1;
             examCrsName.Text = selectedCourseName;
             InitializeUILists();
             LoadQuestions();
@@ -59,31 +64,132 @@ namespace ExamManagmentSystem.Student_UsrCtrl
             tfAnswerGroups.AddRange(new GroupBox[] { grpTF1, grpTF2, grpTF3, grpTF4, grpTF5,
                                                      grpTF6, grpTF7, grpTF8, grpTF9, grpTF10 });
         }
+        private void saveAnswers()
+        {
+            Qind = 1;
+            for (int mcqIndex = 0; mcqIndex < 15; mcqIndex++)
+            {
+                GroupBox groupBox = mcqAnswerGroups[mcqIndex];
+                RadioButton[] options = groupBox.Controls.OfType<RadioButton>().ToArray();
 
+                foreach (RadioButton option in options)
+                {
+                    option.CheckedChanged += (sender, e) =>
+                    {
+                        query = "EXEC insertStd_Answers @StudentId, @ModelId, @Answer";
+
+                        if (option.Checked)
+                        {
+
+                            var parameters = new Dictionary<string, object>
+                             {
+                            { "@StudentId", this.studentId },
+                            { "@ModelId", this.modelId },
+                            { "@Answer", option.Text }
+                            };
+                            
+                            fn.SetData(query, "Insert student answers", parameters);
+
+                        }
+                        else
+                        {
+                            var parameters = new Dictionary<string, object>
+                             {
+                            { "@StudentId", this.studentId },
+                            { "@ModelId", this.modelId },
+                            { "@Answer","not seleted" }
+                            };
+
+                            fn.SetData(query, "Insert student answers", parameters);
+                        }
+                       
+                    };
+                }
+            }
+            for (int TFIndex = 0; TFIndex < 10; TFIndex++)
+            {
+                GroupBox groupBox = tfAnswerGroups[TFIndex];
+                RadioButton[] options = groupBox.Controls.OfType<RadioButton>().ToArray();
+
+                foreach (RadioButton option in options)
+                {
+
+                    option.CheckedChanged += (sender, e) =>
+                    {
+                        query = "EXEC insertStd_Answers @StudentId, @ModelId, @Answer";
+
+                        if (option.Checked)
+                        {
+                            var parameters = new Dictionary<string, object>
+                                 {
+                                 { "@StudentId", this.studentId },
+                                 { "@ModelId", this.modelId },
+                                 { "@Answer", option.Text }
+                                  };
+
+                            // Execute the query
+                            fn.SetData(query, "Insert student answers", parameters);
+                        }
+                        else
+                        {
+                            var parameters = new Dictionary<string, object>
+                                 {
+                                 { "@StudentId", this.studentId },
+                                 { "@ModelId", this.modelId },
+                                 { "@Answer", "not selected" }
+                                  };
+
+                            // Execute the query
+                            fn.SetData(query, "Insert student answers", parameters);
+                        }
+                    };
+                   
+
+                }
+            }
+            
+
+        }
         private void LoadQuestions()
         {
-            string connectionString = @"Server=DESKTOP-K467VME\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+            string connectionString = @"Server=SOLI\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
 
             using (SqlConnection con = new SqlConnection(connectionString))
             {
                 con.Open();
-                using (SqlCommand cmd = new SqlCommand("GetStudentCoursesWithModelsAndNoExam", con))
+                using (SqlCommand cmd = new SqlCommand("GetRandomModelAndExam", con))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@student_id", studentId);
+                    cmd.Parameters.AddWithValue("@coursename", courseName);
 
+                    SqlParameter outputParam = new SqlParameter("@student_selected_model", SqlDbType.Int)
+                    {
+                        Direction = ParameterDirection.Output
+                    };
+                    cmd.Parameters.Add(outputParam);
+
+                    // Execute the stored procedure
+                    cmd.ExecuteNonQuery();
+
+                    // Retrieve the output parameter value
+                    int modelId = (int)cmd.Parameters["@student_selected_model"].Value;
+                    this.modelId= modelId;
                     SqlDataReader reader = cmd.ExecuteReader();
                     int mcqIndex = 0, tfIndex = 0;
 
                     while (reader.Read())
                     {
                         int questionId = reader.GetInt32(0);
+                        qes_order[Qind++] = questionId;
                         string questionText = reader.GetString(1);
                         string questionType = reader.GetString(2);
-                        string choiceA = reader.IsDBNull(3) ? "" : reader.GetString(3);
-                        string choiceB = reader.IsDBNull(4) ? "" : reader.GetString(4);
-                        string choiceC = reader.IsDBNull(5) ? "" : reader.GetString(5);
-                        string choiceD = reader.IsDBNull(6) ? "" : reader.GetString(6);
+
+                        string choiceA = reader.IsDBNull(5) ? string.Empty : reader.GetString(5);
+                        string choiceB = reader.IsDBNull(6) ? string.Empty : reader.GetString(6);
+                        string choiceC = reader.IsDBNull(7) ? string.Empty : reader.GetString(7);
+                        string choiceD = reader.IsDBNull(8) ? string.Empty : reader.GetString(8);
+
+
 
                         if (questionType == "MCQ" && mcqIndex < 15)
                         {
@@ -95,21 +201,10 @@ namespace ExamManagmentSystem.Student_UsrCtrl
                             options[1].Text = choiceB;
                             options[2].Text = choiceC;
                             options[3].Text = choiceD;
-
-                            foreach (RadioButton option in options)
-                            {
-                                option.CheckedChanged += (sender, e) =>
-                                {
-                                    if (option.Checked)
-                                    {
-                                        studentAnswers[questionId] = option.Text;
-                                    }
-                                };
-                            }
-
+                                          
                             mcqIndex++;
                         }
-                        else if (questionType == "TF" && tfIndex < 10)
+                        else if (questionType == "True/False" && tfIndex < 10)
                         {
                             tfQuestionLabels[tfIndex].Text = $"{tfIndex + 1}. {questionText}";
                             GroupBox groupBox = tfAnswerGroups[tfIndex];
@@ -117,17 +212,6 @@ namespace ExamManagmentSystem.Student_UsrCtrl
 
                             options[0].Text = "True";
                             options[1].Text = "False";
-
-                            foreach (RadioButton option in options)
-                            {
-                                option.CheckedChanged += (sender, e) =>
-                                {
-                                    if (option.Checked)
-                                    {
-                                        studentAnswers[questionId] = option.Text;
-                                    }
-                                };
-                            }
 
                             tfIndex++;
                         }
@@ -138,7 +222,17 @@ namespace ExamManagmentSystem.Student_UsrCtrl
 
         private void btnSubmitAnswers_Click(object sender, EventArgs e)
         {
-            string connectionString = @"Server=DESKTOP-K467VME\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+            try
+            {
+                saveAnswers();
+                MessageBox.Show("Exam submitted successfully! Your score has been recorded.");
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            /*string connectionString = @"Server=SOLI\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
 
             using (SqlConnection con = new SqlConnection(connectionString))
             {
@@ -156,7 +250,7 @@ namespace ExamManagmentSystem.Student_UsrCtrl
                         cmd.Parameters.AddWithValue("@mid", modelId);
                         cmd.Parameters.AddWithValue("@stAns", studentAnswer);
 
-                        cmd.ExecuteNonQuery();
+                      //  cmd.ExecuteNonQuery();
                     }
                 }
 
@@ -167,11 +261,11 @@ namespace ExamManagmentSystem.Student_UsrCtrl
                     scoreCmd.Parameters.AddWithValue("@stid", studentId);
                     scoreCmd.Parameters.AddWithValue("@mid", modelId);
 
-                    scoreCmd.ExecuteNonQuery();
+                  //  scoreCmd.ExecuteNonQuery();
                 }
             }
 
-            MessageBox.Show("Exam submitted successfully! Your score has been recorded.");
+            MessageBox.Show("Exam submitted successfully! Your score has been recorded.");*/
         }
 
         private void panelQuestions_Paint(object sender, PaintEventArgs e)
@@ -180,6 +274,36 @@ namespace ExamManagmentSystem.Student_UsrCtrl
 
         private void label6_Click(object sender, EventArgs e)
         {
+        }
+
+        private void radioButton49_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton62_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTF1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTF4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTF5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,50 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|d:\\0- iti intake 45\\adv sql\\examgui\\exammanagmentsystem\\exammanagmentsystem\\student-usrctrl\\uc_examscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:exammanagmentsystem\\student-usrctrl\\uc_examscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\EXAM16\\exammanagmentsystem\\student-usrctrl\\uc_examscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:exammanagmentsystem\\student-usrctrl\\uc_examscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|d:\\0- iti intake 45\\adv sql\\examgui\\exammanagmentsystem\\exammanagmentsystem\\student-usrctrl\\uc_examscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:exammanagmentsystem\\student-usrctrl\\uc_examscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\EXAM16\\exammanagmentsystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:exammanagmentsystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|d:\\0- iti intake 45\\adv sql\\examgui\\exammanagmentsystem\\exammanagmentsystem\\student-usrctrl\\uc_takeexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:exammanagmentsystem\\student-usrctrl\\uc_takeexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ExamManagmentSystem\\Student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|d:\\0- iti intake 45\\adv sql\\examgui\\exammanagmentsystem\\exammanagmentsystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:exammanagmentsystem\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\EXAM16\\exammanagmentsystem\\student-usrctrl\\uc_takeexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:exammanagmentsystem\\student-usrctrl\\uc_takeexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\exammanagmentsystem\\student-usrctrl\\uc_takeexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:exammanagmentsystem\\student-usrctrl\\uc_takeexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student-UsrCtrl\\UC_ExamScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ExamManagmentSystem\\Student-UsrCtrl\\UC_ExamScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_ViewQuestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:ExamManagmentSystem\\Instructor_UsrCtrl\\UC_ViewQuestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ExamManagmentSystem\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\SQLConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:ExamManagmentSystem\\SQLConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student-UsrCtrl\\UC_MyAnswers.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ExamManagmentSystem\\Student-UsrCtrl\\UC_MyAnswers.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\EXAM16\\exammanagmentsystem\\student-usrctrl\\uc_myanswers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:exammanagmentsystem\\student-usrctrl\\uc_myanswers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Student-UsrCtrl\\UC_ViewCourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:ExamManagmentSystem\\Student-UsrCtrl\\UC_ViewCourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\exammanagmentsystem\\student-usrctrl\\uc_viewcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:exammanagmentsystem\\student-usrctrl\\uc_viewcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F70152C1-F71A-4938-AF97-1A2706884CFB}|ExamManagmentSystem\\ExamManagmentSystem.csproj|solutionrelative:ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,155 +51,140 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "function.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\function.cs",
+              "RelativeDocumentMoniker": "ExamManagmentSystem\\function.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\function.cs",
+              "RelativeToolTip": "ExamManagmentSystem\\function.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T01:53:38.687Z",
+              "IsPinned": true
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UC_ExamScreen.cs",
-              "DocumentMoniker": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Student-UsrCtrl\\UC_ExamScreen.cs",
-              "RelativeDocumentMoniker": "ExamManagmentSystem\\Student-UsrCtrl\\UC_ExamScreen.cs",
-              "ToolTip": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Student-UsrCtrl\\UC_ExamScreen.cs",
-              "RelativeToolTip": "ExamManagmentSystem\\Student-UsrCtrl\\UC_ExamScreen.cs",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAmwKkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T19:02:43.703Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Student.cs",
-              "RelativeDocumentMoniker": "ExamManagmentSystem\\Student.cs",
-              "ToolTip": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Student.cs",
-              "RelativeToolTip": "ExamManagmentSystem\\Student.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Title": "UC_TakeExam.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs",
+              "RelativeDocumentMoniker": "ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs [Design]",
+              "RelativeToolTip": "ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T16:47:32.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T02:25:21.441Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UC_TakeExam.cs",
-              "DocumentMoniker": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs",
-              "RelativeDocumentMoniker": "ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs",
-              "ToolTip": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs",
-              "RelativeToolTip": "ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs",
-              "ViewState": "AgIAADYBAAAAAAAAAAAwwO8AAAAJAAAAAAAAAA==",
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student.cs",
+              "RelativeDocumentMoniker": "ExamManagmentSystem\\Student.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student.cs",
+              "RelativeToolTip": "ExamManagmentSystem\\Student.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAwwH0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T13:34:07.733Z",
+              "WhenOpened": "2025-02-15T02:22:15.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Student.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student.cs",
+              "RelativeDocumentMoniker": "ExamManagmentSystem\\Student.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student.cs [Design]",
+              "RelativeToolTip": "ExamManagmentSystem\\Student.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T02:22:12.615Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "UC_ExamScreen.cs [Design]",
-              "DocumentMoniker": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Student-UsrCtrl\\UC_ExamScreen.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student-UsrCtrl\\UC_ExamScreen.cs",
               "RelativeDocumentMoniker": "ExamManagmentSystem\\Student-UsrCtrl\\UC_ExamScreen.cs",
-              "ToolTip": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Student-UsrCtrl\\UC_ExamScreen.cs [Design]",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student-UsrCtrl\\UC_ExamScreen.cs [Design]",
               "RelativeToolTip": "ExamManagmentSystem\\Student-UsrCtrl\\UC_ExamScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T15:45:54.014Z",
+              "WhenOpened": "2025-02-15T00:06:20.116Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UC_TakeExam.cs [Design]",
-              "DocumentMoniker": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs",
-              "RelativeDocumentMoniker": "ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs",
-              "ToolTip": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs [Design]",
-              "RelativeToolTip": "ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs [Design]",
+              "Title": "UC_ExamScreen.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student-UsrCtrl\\UC_ExamScreen.cs",
+              "RelativeDocumentMoniker": "ExamManagmentSystem\\Student-UsrCtrl\\UC_ExamScreen.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student-UsrCtrl\\UC_ExamScreen.cs",
+              "RelativeToolTip": "ExamManagmentSystem\\Student-UsrCtrl\\UC_ExamScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T05:17:35.219Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UC_ViewQuestion.cs [Design]",
-              "DocumentMoniker": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_ViewQuestion.cs",
-              "RelativeDocumentMoniker": "ExamManagmentSystem\\Instructor_UsrCtrl\\UC_ViewQuestion.cs",
-              "ToolTip": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_ViewQuestion.cs [Design]",
-              "RelativeToolTip": "ExamManagmentSystem\\Instructor_UsrCtrl\\UC_ViewQuestion.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T20:13:38.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SQLConnection.cs",
-              "DocumentMoniker": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\SQLConnection.cs",
-              "RelativeDocumentMoniker": "ExamManagmentSystem\\SQLConnection.cs",
-              "ToolTip": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\SQLConnection.cs",
-              "RelativeToolTip": "ExamManagmentSystem\\SQLConnection.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCwAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T19:06:57.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UC_GenerateExam.Designer.cs",
-              "DocumentMoniker": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.Designer.cs",
-              "RelativeDocumentMoniker": "ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.Designer.cs",
-              "ToolTip": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.Designer.cs",
-              "RelativeToolTip": "ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T19:02:56.095Z",
+              "WhenOpened": "2025-02-14T21:26:51.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "UC_ViewCourses.cs",
-              "DocumentMoniker": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Student-UsrCtrl\\UC_ViewCourses.cs",
-              "RelativeDocumentMoniker": "ExamManagmentSystem\\Student-UsrCtrl\\UC_ViewCourses.cs",
-              "ToolTip": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Student-UsrCtrl\\UC_ViewCourses.cs",
-              "RelativeToolTip": "ExamManagmentSystem\\Student-UsrCtrl\\UC_ViewCourses.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Title": "UC_TakeExam.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs",
+              "RelativeDocumentMoniker": "ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs",
+              "RelativeToolTip": "ExamManagmentSystem\\Student-UsrCtrl\\UC_TakeExam.cs",
+              "ViewState": "AgIAADYBAAAAAAAAAAAewFkBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T17:09:16.523Z"
+              "WhenOpened": "2025-02-15T02:25:22.523Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UC_ViewCourses.cs [Design]",
-              "DocumentMoniker": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Student-UsrCtrl\\UC_ViewCourses.cs",
-              "RelativeDocumentMoniker": "ExamManagmentSystem\\Student-UsrCtrl\\UC_ViewCourses.cs",
-              "ToolTip": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Student-UsrCtrl\\UC_ViewCourses.cs [Design]",
-              "RelativeToolTip": "ExamManagmentSystem\\Student-UsrCtrl\\UC_ViewCourses.cs [Design]",
+              "DocumentIndex": 7,
+              "Title": "UC_MyAnswers.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student-UsrCtrl\\UC_MyAnswers.cs",
+              "RelativeDocumentMoniker": "ExamManagmentSystem\\Student-UsrCtrl\\UC_MyAnswers.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student-UsrCtrl\\UC_MyAnswers.cs [Design]",
+              "RelativeToolTip": "ExamManagmentSystem\\Student-UsrCtrl\\UC_MyAnswers.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T16:34:50.356Z"
+              "WhenOpened": "2025-02-15T02:27:47.018Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UC_GenerateExam.cs",
-              "DocumentMoniker": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs",
-              "RelativeDocumentMoniker": "ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs",
-              "ToolTip": "D:\\0- ITI intake 45\\Adv SQL\\ExamGUI\\ExamManagmentSystem\\ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs",
-              "RelativeToolTip": "ExamManagmentSystem\\Instructor_UsrCtrl\\UC_GenerateExam.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAkwBYAAAATAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "UC_MyAnswers.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student-UsrCtrl\\UC_MyAnswers.Designer.cs",
+              "RelativeDocumentMoniker": "ExamManagmentSystem\\Student-UsrCtrl\\UC_MyAnswers.Designer.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\EXAM16\\ExamManagmentSystem\\Student-UsrCtrl\\UC_MyAnswers.Designer.cs",
+              "RelativeToolTip": "ExamManagmentSystem\\Student-UsrCtrl\\UC_MyAnswers.Designer.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T16:40:12.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T02:30:51.771Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 110,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

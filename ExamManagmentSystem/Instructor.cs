@@ -14,7 +14,7 @@ namespace ExamManagmentSystem
     public partial class Instructor : Form
     {
 
-        private int instId;
+        protected int instId;
         public Instructor(int id)
         {
             InitializeComponent();
@@ -77,28 +77,17 @@ namespace ExamManagmentSystem
 
         private void btnLogoutIns_Click(object sender, EventArgs e)
         {
-            // Find the existing Login form
-            Login loginForm = Application.OpenForms.OfType<Login>().FirstOrDefault();
-
-            if (loginForm != null)
-            {
-                loginForm.Show();  // Show the existing login form if it's hidden
-            }
-            else
-            {
-                loginForm = new Login();  // Create a new instance if not found
-                loginForm.Show();
-            }
-
-            this.Close();  // Close the Instructor form
+            Login insLog = new Login();
+            insLog.Show();
+            //insLog.txtSelectUser.SelectedIndex = 0;
+            this.Hide();
         }
-
 
 
         private string GetInstName(int instId)
         {
             string instName = "Instructor"; // Default name
-            string connectionString = @"Server=DESKTOP-K467VME\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+            string connectionString = @"Server=SOLI\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
 
             using (SqlConnection con = new SqlConnection(connectionString))
             {
@@ -130,18 +119,33 @@ namespace ExamManagmentSystem
         {
             uC_ViewRegisteredStudents1.Visible=true;
             uC_ViewRegisteredStudents1.BringToFront();
+            uC_ViewRegisteredStudents1.LoadInstructorCourses(this.instId);
         }
 
         private void btnViewCourseResult_Click(object sender, EventArgs e)
         {
-            uC_ViewRegisteredStudents1.Visible = true;
+            uC_StudentsResults1.Visible = true;
             uC_StudentsResults1.BringToFront();
+            uC_StudentsResults1.LoadInstructorCourses(instId);
+
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
             uC_CoursesList1.Visible=true;
             uC_CoursesList1.BringToFront();    
+        }
+
+        private void uC_CoursesList1_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void uC_ViewRegisteredStudents2_Load(object sender, EventArgs e)
+        {
+            uC_ViewRegisteredStudents1.Visible = true;
+            uC_ViewRegisteredStudents1.BringToFront();
+            uC_ViewRegisteredStudents1.LoadInstructorCourses(this.instId);
+
         }
     }
 }

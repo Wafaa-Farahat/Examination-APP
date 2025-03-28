@@ -123,6 +123,7 @@
             this.Controls.Add(this.crsExamList);
             this.Name = "UC_TakeExam";
             this.Size = new System.Drawing.Size(1056, 886);
+            this.Load += new System.EventHandler(this.UC_TakeExam_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

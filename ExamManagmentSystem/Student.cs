@@ -59,19 +59,23 @@ namespace ExamManagmentSystem
             uC_ViewCourses1.Visible=false;
             stdUsernameLabel.Text = GetStudentName(studentId);
             uC_ExamScreen1.Visible=false;
+            uC_ViewCourses1.Visible = false;
+            uC_ViewResults1.Visible = false;
+            uC_MyAnswers1.Visible = false;
         }
 
         private void btnViewCourses_Click(object sender, EventArgs e)
         {
             uC_ViewCourses1.Visible=true;
             uC_ViewCourses1.BringToFront();
+            uC_ViewCourses1.ShowStudentCourses(studentId);
         }
 
 
         private string GetStudentName(int studentId)
         {
             string studentName = "Student"; // Default name
-            string connectionString = @"Server=DESKTOP-K467VME\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+            string connectionString = @"Server=SOLI\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
 
             using (SqlConnection con = new SqlConnection(connectionString))
             {
@@ -93,10 +97,35 @@ namespace ExamManagmentSystem
             }
             return studentName;
         }
+        private void uC_ViewCourses1_Load(object sender, EventArgs e)
+        {
+            uC_ViewCourses1.Visible = true;
+            uC_ViewCourses1.BringToFront();
+            uC_ViewCourses1.ShowStudentCourses(studentId);
+        }
+
+        private void uC_ViewResults1_Load(object sender, EventArgs e)
+        {
+            
+        }
 
         private void stdMenuPanel_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btnViewResults_Click_1(object sender, EventArgs e)
+        {
+            uC_ViewResults1.Visible = true;
+            uC_ViewResults1.BringToFront();
+            uC_ViewResults1.LoadStudentCourses(studentId);
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            uC_MyAnswers1.Visible = false;
+            uC_MyAnswers1.BringToFront();
+            uC_MyAnswers1.ShowStudentCourses(studentId);
         }
     }
 }

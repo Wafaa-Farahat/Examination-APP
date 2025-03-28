@@ -241,7 +241,8 @@ namespace ExamManagmentSystem.Student_UsrCtrl
 
         public void LoadStudentCourses(int studentId)
         {
-            string connectionString = @"Server=DESKTOP-K467VME\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
+            this.studentId = studentId;
+            string connectionString = @"Server=SOLI\SQLEXPRESS;Database=5th edition;Integrated Security=True;";
 
             using (SqlConnection con = new SqlConnection(connectionString))
             {
@@ -254,7 +255,7 @@ namespace ExamManagmentSystem.Student_UsrCtrl
                     SqlDataReader reader = cmd.ExecuteReader();
                     Dictionary<int, string> courses = new Dictionary<int, string>();
 
-                    while (reader.Read())
+                    while(reader.Read())
                     {
                         int modelId = reader.GetInt32(0);  // Model ID (was courseId before)
                         string courseName = reader.GetString(1);
@@ -302,24 +303,47 @@ namespace ExamManagmentSystem.Student_UsrCtrl
                 MessageBox.Show("Please select a course first.");
                 return;
             }
-
-            int selectedModelId = Convert.ToInt32(crsExamList.SelectedValue); // Use Model ID
-            string selectedCourse = crsExamList.Text;
-
-            UC_ExamScreen examScreen = new UC_ExamScreen(selectedModelId, selectedCourse, studentId);
-            Form parentForm = this.FindForm();
-
-            if (parentForm != null)
+            else
             {
-                Panel stdHomePanel = parentForm.Controls.Find("stdHomePanel", true).FirstOrDefault() as Panel;
-                if (stdHomePanel != null)
+                DialogResult result = MessageBox.Show(
+            "Are you sure you want to take this exam?",
+            "Confirmation",
+            MessageBoxButtons.YesNo,
+            MessageBoxIcon.Question
+                   );
+
+                if (result == DialogResult.Yes)
                 {
-                    stdHomePanel.Controls.Clear();
-                    stdHomePanel.Controls.Add(examScreen);
-                    examScreen.Dock = DockStyle.Fill;
-                    examScreen.BringToFront();
+                    MessageBox.Show("Good luck!");
+
+                    int selectedModelId = Convert.ToInt32(crsExamList.SelectedValue); // Use Model ID
+                    string selectedCourse = crsExamList.Text;
+
+                    UC_ExamScreen examScreen = new UC_ExamScreen(selectedModelId, selectedCourse, this.studentId);
+                    Form parentForm = this.FindForm();
+
+                    if (parentForm != null)
+                    {
+                        Panel stdHomePanel = parentForm.Controls.Find("stdHomePanel", true).FirstOrDefault() as Panel;
+                        if (stdHomePanel != null)
+                        {
+                            stdHomePanel.Controls.Clear();
+                            stdHomePanel.Controls.Add(examScreen);
+                            examScreen.Dock = DockStyle.Fill;
+                            examScreen.BringToFront();
+                        }
+                    }
                 }
+                
+                
             }
+
+
+        }
+
+        private void UC_TakeExam_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

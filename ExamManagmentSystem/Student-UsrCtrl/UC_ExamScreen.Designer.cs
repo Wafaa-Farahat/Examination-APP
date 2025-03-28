@@ -230,7 +230,7 @@
             this.grpMCQ1.Controls.Add(this.radioButton1);
             this.grpMCQ1.Location = new System.Drawing.Point(45, 305);
             this.grpMCQ1.Name = "grpMCQ1";
-            this.grpMCQ1.Size = new System.Drawing.Size(254, 186);
+            this.grpMCQ1.Size = new System.Drawing.Size(565, 186);
             this.grpMCQ1.TabIndex = 7;
             this.grpMCQ1.TabStop = false;
             // 
@@ -240,10 +240,10 @@
             this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton4.Location = new System.Drawing.Point(26, 150);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(125, 24);
+            this.radioButton4.Size = new System.Drawing.Size(79, 24);
             this.radioButton4.TabIndex = 3;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
+            this.radioButton4.Text = "stdio.h";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // radioButton3
@@ -252,11 +252,12 @@
             this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton3.Location = new System.Drawing.Point(26, 105);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(125, 24);
+            this.radioButton3.Size = new System.Drawing.Size(108, 24);
             this.radioButton3.TabIndex = 2;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
+            this.radioButton3.Text = "iostream.h";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -264,10 +265,10 @@
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.Location = new System.Drawing.Point(26, 63);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(125, 24);
+            this.radioButton2.Size = new System.Drawing.Size(83, 24);
             this.radioButton2.TabIndex = 1;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
+            this.radioButton2.Text = "stdlib.h";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton1
@@ -276,10 +277,10 @@
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.Location = new System.Drawing.Point(26, 21);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(125, 24);
+            this.radioButton1.Size = new System.Drawing.Size(380, 24);
             this.radioButton1.TabIndex = 0;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.Text = "OOP can be used without using any header file";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // lblMCQ1
@@ -288,9 +289,9 @@
             this.lblMCQ1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMCQ1.Location = new System.Drawing.Point(40, 277);
             this.lblMCQ1.Name = "lblMCQ1";
-            this.lblMCQ1.Size = new System.Drawing.Size(245, 25);
+            this.lblMCQ1.Size = new System.Drawing.Size(441, 25);
             this.lblMCQ1.TabIndex = 6;
-            this.lblMCQ1.Text = "Question 1: What is OOP?";
+            this.lblMCQ1.Text = "Which header file is required in C++ to use OOP?";
             // 
             // lblQuestionMCQ
             // 
@@ -322,10 +323,10 @@
             this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton5.Location = new System.Drawing.Point(26, 150);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(125, 24);
+            this.radioButton5.Size = new System.Drawing.Size(76, 24);
             this.radioButton5.TabIndex = 3;
             this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "radioButton5";
+            this.radioButton5.Text = "Public";
             this.radioButton5.UseVisualStyleBackColor = true;
             // 
             // radioButton6
@@ -334,10 +335,10 @@
             this.radioButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton6.Location = new System.Drawing.Point(26, 105);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(125, 24);
+            this.radioButton6.Size = new System.Drawing.Size(82, 24);
             this.radioButton6.TabIndex = 2;
             this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "radioButton6";
+            this.radioButton6.Text = "Private";
             this.radioButton6.UseVisualStyleBackColor = true;
             // 
             // radioButton7
@@ -346,10 +347,10 @@
             this.radioButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton7.Location = new System.Drawing.Point(26, 63);
             this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(125, 24);
+            this.radioButton7.Size = new System.Drawing.Size(102, 24);
             this.radioButton7.TabIndex = 1;
             this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "radioButton7";
+            this.radioButton7.Text = "Protected";
             this.radioButton7.UseVisualStyleBackColor = true;
             // 
             // radioButton8
@@ -358,10 +359,10 @@
             this.radioButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton8.Location = new System.Drawing.Point(26, 21);
             this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(125, 24);
+            this.radioButton8.Size = new System.Drawing.Size(181, 24);
             this.radioButton8.TabIndex = 0;
             this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "radioButton8";
+            this.radioButton8.Text = "All can be accessed";
             this.radioButton8.UseVisualStyleBackColor = true;
             // 
             // lblMCQ2
@@ -370,9 +371,9 @@
             this.lblMCQ2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMCQ2.Location = new System.Drawing.Point(40, 520);
             this.lblMCQ2.Name = "lblMCQ2";
-            this.lblMCQ2.Size = new System.Drawing.Size(245, 25);
+            this.lblMCQ2.Size = new System.Drawing.Size(685, 25);
             this.lblMCQ2.TabIndex = 8;
-            this.lblMCQ2.Text = "Question 2: What is OOP?";
+            this.lblMCQ2.Text = "Which type of members can’t be accessed in derived classes of a base class?";
             // 
             // grpMCQ3
             // 
@@ -383,7 +384,7 @@
             this.grpMCQ3.Controls.Add(this.radioButton12);
             this.grpMCQ3.Location = new System.Drawing.Point(45, 800);
             this.grpMCQ3.Name = "grpMCQ3";
-            this.grpMCQ3.Size = new System.Drawing.Size(254, 186);
+            this.grpMCQ3.Size = new System.Drawing.Size(666, 186);
             this.grpMCQ3.TabIndex = 9;
             this.grpMCQ3.TabStop = false;
             // 
@@ -393,10 +394,10 @@
             this.radioButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton9.Location = new System.Drawing.Point(26, 150);
             this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(125, 24);
+            this.radioButton9.Size = new System.Drawing.Size(403, 24);
             this.radioButton9.TabIndex = 3;
             this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "radioButton9";
+            this.radioButton9.Text = "Copy an object so that it can be passed to a class";
             this.radioButton9.UseVisualStyleBackColor = true;
             // 
             // radioButton10
@@ -405,10 +406,10 @@
             this.radioButton10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton10.Location = new System.Drawing.Point(26, 105);
             this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(134, 24);
+            this.radioButton10.Size = new System.Drawing.Size(422, 24);
             this.radioButton10.TabIndex = 2;
             this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "radioButton10";
+            this.radioButton10.Text = "Copy an object so that it can be passed to a function";
             this.radioButton10.UseVisualStyleBackColor = true;
             // 
             // radioButton11
@@ -417,10 +418,10 @@
             this.radioButton11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton11.Location = new System.Drawing.Point(26, 63);
             this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(134, 24);
+            this.radioButton11.Size = new System.Drawing.Size(261, 24);
             this.radioButton11.TabIndex = 1;
             this.radioButton11.TabStop = true;
-            this.radioButton11.Text = "radioButton11";
+            this.radioButton11.Text = "Copy an object for type casting";
             this.radioButton11.UseVisualStyleBackColor = true;
             // 
             // radioButton12
@@ -429,10 +430,10 @@
             this.radioButton12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton12.Location = new System.Drawing.Point(26, 21);
             this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(134, 24);
+            this.radioButton12.Size = new System.Drawing.Size(422, 24);
             this.radioButton12.TabIndex = 0;
             this.radioButton12.TabStop = true;
-            this.radioButton12.Text = "radioButton12";
+            this.radioButton12.Text = "Copy an object so that it can be passed to a function";
             this.radioButton12.UseVisualStyleBackColor = true;
             // 
             // lblMCQ3
@@ -441,9 +442,9 @@
             this.lblMCQ3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMCQ3.Location = new System.Drawing.Point(40, 772);
             this.lblMCQ3.Name = "lblMCQ3";
-            this.lblMCQ3.Size = new System.Drawing.Size(245, 25);
+            this.lblMCQ3.Size = new System.Drawing.Size(431, 25);
             this.lblMCQ3.TabIndex = 8;
-            this.lblMCQ3.Text = "Question 3: What is OOP?";
+            this.lblMCQ3.Text = "The copy constructors can be used to ________";
             // 
             // grpMCQ8
             // 
@@ -464,10 +465,10 @@
             this.radioButton17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton17.Location = new System.Drawing.Point(26, 150);
             this.radioButton17.Name = "radioButton17";
-            this.radioButton17.Size = new System.Drawing.Size(134, 24);
+            this.radioButton17.Size = new System.Drawing.Size(139, 24);
             this.radioButton17.TabIndex = 3;
             this.radioButton17.TabStop = true;
-            this.radioButton17.Text = "radioButton17";
+            this.radioButton17.Text = "~class_name()";
             this.radioButton17.UseVisualStyleBackColor = true;
             // 
             // radioButton18
@@ -476,10 +477,10 @@
             this.radioButton18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton18.Location = new System.Drawing.Point(26, 105);
             this.radioButton18.Name = "radioButton18";
-            this.radioButton18.Size = new System.Drawing.Size(134, 24);
+            this.radioButton18.Size = new System.Drawing.Size(132, 24);
             this.radioButton18.TabIndex = 2;
             this.radioButton18.TabStop = true;
-            this.radioButton18.Text = "radioButton18";
+            this.radioButton18.Text = "class_name()";
             this.radioButton18.UseVisualStyleBackColor = true;
             // 
             // radioButton19
@@ -488,10 +489,10 @@
             this.radioButton19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton19.Location = new System.Drawing.Point(26, 63);
             this.radioButton19.Name = "radioButton19";
-            this.radioButton19.Size = new System.Drawing.Size(134, 24);
+            this.radioButton19.Size = new System.Drawing.Size(126, 24);
             this.radioButton19.TabIndex = 1;
             this.radioButton19.TabStop = true;
-            this.radioButton19.Text = "radioButton19";
+            this.radioButton19.Text = "-class_name";
             this.radioButton19.UseVisualStyleBackColor = true;
             // 
             // radioButton20
@@ -500,10 +501,10 @@
             this.radioButton20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton20.Location = new System.Drawing.Point(26, 21);
             this.radioButton20.Name = "radioButton20";
-            this.radioButton20.Size = new System.Drawing.Size(134, 24);
+            this.radioButton20.Size = new System.Drawing.Size(137, 24);
             this.radioButton20.TabIndex = 0;
             this.radioButton20.TabStop = true;
-            this.radioButton20.Text = "radioButton20";
+            this.radioButton20.Text = "() class_name";
             this.radioButton20.UseVisualStyleBackColor = true;
             // 
             // lblMCQ8
@@ -512,9 +513,9 @@
             this.lblMCQ8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMCQ8.Location = new System.Drawing.Point(40, 2002);
             this.lblMCQ8.Name = "lblMCQ8";
-            this.lblMCQ8.Size = new System.Drawing.Size(245, 25);
+            this.lblMCQ8.Size = new System.Drawing.Size(497, 25);
             this.lblMCQ8.TabIndex = 12;
-            this.lblMCQ8.Text = "Question 8: What is OOP?";
+            this.lblMCQ8.Text = "Select the following which shows the correct constructor.";
             // 
             // grpMCQ4
             // 
@@ -525,7 +526,7 @@
             this.grpMCQ4.Controls.Add(this.radioButton16);
             this.grpMCQ4.Location = new System.Drawing.Point(45, 1045);
             this.grpMCQ4.Name = "grpMCQ4";
-            this.grpMCQ4.Size = new System.Drawing.Size(254, 186);
+            this.grpMCQ4.Size = new System.Drawing.Size(590, 186);
             this.grpMCQ4.TabIndex = 15;
             this.grpMCQ4.TabStop = false;
             // 
@@ -535,10 +536,10 @@
             this.radioButton13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton13.Location = new System.Drawing.Point(26, 150);
             this.radioButton13.Name = "radioButton13";
-            this.radioButton13.Size = new System.Drawing.Size(134, 24);
+            this.radioButton13.Size = new System.Drawing.Size(400, 24);
             this.radioButton13.TabIndex = 3;
             this.radioButton13.TabStop = true;
-            this.radioButton13.Text = "radioButton13";
+            this.radioButton13.Text = "Destructor is called when function is out of scope";
             this.radioButton13.UseVisualStyleBackColor = true;
             // 
             // radioButton14
@@ -547,10 +548,10 @@
             this.radioButton14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton14.Location = new System.Drawing.Point(26, 105);
             this.radioButton14.Name = "radioButton14";
-            this.radioButton14.Size = new System.Drawing.Size(134, 24);
+            this.radioButton14.Size = new System.Drawing.Size(205, 24);
             this.radioButton14.TabIndex = 2;
             this.radioButton14.TabStop = true;
-            this.radioButton14.Text = "radioButton14";
+            this.radioButton14.Text = "Destructor is not called";
             this.radioButton14.UseVisualStyleBackColor = true;
             // 
             // radioButton15
@@ -559,10 +560,10 @@
             this.radioButton15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton15.Location = new System.Drawing.Point(26, 63);
             this.radioButton15.Name = "radioButton15";
-            this.radioButton15.Size = new System.Drawing.Size(134, 24);
+            this.radioButton15.Size = new System.Drawing.Size(339, 24);
             this.radioButton15.TabIndex = 1;
             this.radioButton15.TabStop = true;
-            this.radioButton15.Text = "radioButton15";
+            this.radioButton15.Text = "Destructor is called when called explicitly";
             this.radioButton15.UseVisualStyleBackColor = true;
             // 
             // radioButton16
@@ -571,10 +572,10 @@
             this.radioButton16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton16.Location = new System.Drawing.Point(26, 21);
             this.radioButton16.Name = "radioButton16";
-            this.radioButton16.Size = new System.Drawing.Size(134, 24);
+            this.radioButton16.Size = new System.Drawing.Size(311, 24);
             this.radioButton16.TabIndex = 0;
             this.radioButton16.TabStop = true;
-            this.radioButton16.Text = "radioButton16";
+            this.radioButton16.Text = "Destructor is called at end of function";
             this.radioButton16.UseVisualStyleBackColor = true;
             // 
             // lblMCQ4
@@ -583,9 +584,9 @@
             this.lblMCQ4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMCQ4.Location = new System.Drawing.Point(40, 1017);
             this.lblMCQ4.Name = "lblMCQ4";
-            this.lblMCQ4.Size = new System.Drawing.Size(245, 25);
+            this.lblMCQ4.Size = new System.Drawing.Size(488, 25);
             this.lblMCQ4.TabIndex = 14;
-            this.lblMCQ4.Text = "Question 4: What is OOP?";
+            this.lblMCQ4.Text = "What happens when an object is passed by reference?";
             // 
             // grpMCQ5
             // 
@@ -596,7 +597,7 @@
             this.grpMCQ5.Controls.Add(this.radioButton24);
             this.grpMCQ5.Location = new System.Drawing.Point(45, 1294);
             this.grpMCQ5.Name = "grpMCQ5";
-            this.grpMCQ5.Size = new System.Drawing.Size(254, 186);
+            this.grpMCQ5.Size = new System.Drawing.Size(541, 186);
             this.grpMCQ5.TabIndex = 11;
             this.grpMCQ5.TabStop = false;
             // 
@@ -606,10 +607,10 @@
             this.radioButton21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton21.Location = new System.Drawing.Point(26, 150);
             this.radioButton21.Name = "radioButton21";
-            this.radioButton21.Size = new System.Drawing.Size(134, 24);
+            this.radioButton21.Size = new System.Drawing.Size(90, 24);
             this.radioButton21.TabIndex = 3;
             this.radioButton21.TabStop = true;
-            this.radioButton21.Text = "radioButton21";
+            this.radioButton21.Text = "A and C";
             this.radioButton21.UseVisualStyleBackColor = true;
             // 
             // radioButton22
@@ -618,10 +619,10 @@
             this.radioButton22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton22.Location = new System.Drawing.Point(26, 105);
             this.radioButton22.Name = "radioButton22";
-            this.radioButton22.Size = new System.Drawing.Size(134, 24);
+            this.radioButton22.Size = new System.Drawing.Size(444, 24);
             this.radioButton22.TabIndex = 2;
             this.radioButton22.TabStop = true;
-            this.radioButton22.Text = "radioButton22";
+            this.radioButton22.Text = "write one or more pure virtual functions inside the class";
             this.radioButton22.UseVisualStyleBackColor = true;
             // 
             // radioButton23
@@ -630,10 +631,10 @@
             this.radioButton23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton23.Location = new System.Drawing.Point(26, 63);
             this.radioButton23.Name = "radioButton23";
-            this.radioButton23.Size = new System.Drawing.Size(134, 24);
+            this.radioButton23.Size = new System.Drawing.Size(290, 24);
             this.radioButton23.TabIndex = 1;
             this.radioButton23.TabStop = true;
-            this.radioButton23.Text = "radioButton23";
+            this.radioButton23.Text = "make the class a pure virtual class";
             this.radioButton23.UseVisualStyleBackColor = true;
             // 
             // radioButton24
@@ -642,10 +643,10 @@
             this.radioButton24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton24.Location = new System.Drawing.Point(26, 21);
             this.radioButton24.Name = "radioButton24";
-            this.radioButton24.Size = new System.Drawing.Size(134, 24);
+            this.radioButton24.Size = new System.Drawing.Size(444, 24);
             this.radioButton24.TabIndex = 0;
             this.radioButton24.TabStop = true;
-            this.radioButton24.Text = "radioButton24";
+            this.radioButton24.Text = "write the abstract keyword before the name of the class";
             this.radioButton24.UseVisualStyleBackColor = true;
             // 
             // lblMCQ5
@@ -654,9 +655,10 @@
             this.lblMCQ5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMCQ5.Location = new System.Drawing.Point(40, 1266);
             this.lblMCQ5.Name = "lblMCQ5";
-            this.lblMCQ5.Size = new System.Drawing.Size(245, 25);
+            this.lblMCQ5.Size = new System.Drawing.Size(748, 25);
             this.lblMCQ5.TabIndex = 10;
-            this.lblMCQ5.Text = "Question 5: What is OOP?";
+            this.lblMCQ5.Text = "In order to turn a class into an abstract class, which of the following do we nee" +
+    "d to do?";
             this.lblMCQ5.Click += new System.EventHandler(this.label6_Click);
             // 
             // grpMCQ6
@@ -678,10 +680,10 @@
             this.radioButton25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton25.Location = new System.Drawing.Point(26, 150);
             this.radioButton25.Name = "radioButton25";
-            this.radioButton25.Size = new System.Drawing.Size(134, 24);
+            this.radioButton25.Size = new System.Drawing.Size(39, 24);
             this.radioButton25.TabIndex = 3;
             this.radioButton25.TabStop = true;
-            this.radioButton25.Text = "radioButton25";
+            this.radioButton25.Text = "1";
             this.radioButton25.UseVisualStyleBackColor = true;
             // 
             // radioButton26
@@ -690,10 +692,10 @@
             this.radioButton26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton26.Location = new System.Drawing.Point(26, 105);
             this.radioButton26.Name = "radioButton26";
-            this.radioButton26.Size = new System.Drawing.Size(134, 24);
+            this.radioButton26.Size = new System.Drawing.Size(48, 24);
             this.radioButton26.TabIndex = 2;
             this.radioButton26.TabStop = true;
-            this.radioButton26.Text = "radioButton26";
+            this.radioButton26.Text = "10";
             this.radioButton26.UseVisualStyleBackColor = true;
             // 
             // radioButton27
@@ -702,10 +704,10 @@
             this.radioButton27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton27.Location = new System.Drawing.Point(26, 63);
             this.radioButton27.Name = "radioButton27";
-            this.radioButton27.Size = new System.Drawing.Size(134, 24);
+            this.radioButton27.Size = new System.Drawing.Size(39, 24);
             this.radioButton27.TabIndex = 1;
             this.radioButton27.TabStop = true;
-            this.radioButton27.Text = "radioButton27";
+            this.radioButton27.Text = "3";
             this.radioButton27.UseVisualStyleBackColor = true;
             // 
             // radioButton28
@@ -714,10 +716,10 @@
             this.radioButton28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton28.Location = new System.Drawing.Point(26, 21);
             this.radioButton28.Name = "radioButton28";
-            this.radioButton28.Size = new System.Drawing.Size(134, 24);
+            this.radioButton28.Size = new System.Drawing.Size(39, 24);
             this.radioButton28.TabIndex = 0;
             this.radioButton28.TabStop = true;
-            this.radioButton28.Text = "radioButton28";
+            this.radioButton28.Text = "4";
             this.radioButton28.UseVisualStyleBackColor = true;
             // 
             // lblMCQ6
@@ -726,9 +728,9 @@
             this.lblMCQ6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMCQ6.Location = new System.Drawing.Point(40, 1509);
             this.lblMCQ6.Name = "lblMCQ6";
-            this.lblMCQ6.Size = new System.Drawing.Size(245, 25);
+            this.lblMCQ6.Size = new System.Drawing.Size(583, 25);
             this.lblMCQ6.TabIndex = 10;
-            this.lblMCQ6.Text = "Question 6: What is OOP?";
+            this.lblMCQ6.Text = "How many types of access specifiers are provided in OOP (C++)?";
             // 
             // grpMCQ7
             // 
@@ -739,7 +741,7 @@
             this.grpMCQ7.Controls.Add(this.radioButton32);
             this.grpMCQ7.Location = new System.Drawing.Point(45, 1781);
             this.grpMCQ7.Name = "grpMCQ7";
-            this.grpMCQ7.Size = new System.Drawing.Size(254, 186);
+            this.grpMCQ7.Size = new System.Drawing.Size(743, 186);
             this.grpMCQ7.TabIndex = 11;
             this.grpMCQ7.TabStop = false;
             // 
@@ -749,10 +751,10 @@
             this.radioButton29.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton29.Location = new System.Drawing.Point(26, 150);
             this.radioButton29.Name = "radioButton29";
-            this.radioButton29.Size = new System.Drawing.Size(134, 24);
+            this.radioButton29.Size = new System.Drawing.Size(163, 24);
             this.radioButton29.TabIndex = 3;
             this.radioButton29.TabStop = true;
-            this.radioButton29.Text = "radioButton29";
+            this.radioButton29.Text = "Non of The Above";
             this.radioButton29.UseVisualStyleBackColor = true;
             // 
             // radioButton30
@@ -761,10 +763,10 @@
             this.radioButton30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton30.Location = new System.Drawing.Point(26, 105);
             this.radioButton30.Name = "radioButton30";
-            this.radioButton30.Size = new System.Drawing.Size(134, 24);
+            this.radioButton30.Size = new System.Drawing.Size(283, 24);
             this.radioButton30.TabIndex = 2;
             this.radioButton30.TabStop = true;
-            this.radioButton30.Text = "radioButton30";
+            this.radioButton30.Text = "The function is correct in that way";
             this.radioButton30.UseVisualStyleBackColor = true;
             // 
             // radioButton31
@@ -773,10 +775,10 @@
             this.radioButton31.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton31.Location = new System.Drawing.Point(26, 63);
             this.radioButton31.Name = "radioButton31";
-            this.radioButton31.Size = new System.Drawing.Size(134, 24);
+            this.radioButton31.Size = new System.Drawing.Size(599, 24);
             this.radioButton31.TabIndex = 1;
             this.radioButton31.TabStop = true;
-            this.radioButton31.Text = "radioButton31";
+            this.radioButton31.Text = "We must only give a default parameter for my Normal Var and not the others";
             this.radioButton31.UseVisualStyleBackColor = true;
             // 
             // radioButton32
@@ -785,10 +787,10 @@
             this.radioButton32.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton32.Location = new System.Drawing.Point(26, 21);
             this.radioButton32.Name = "radioButton32";
-            this.radioButton32.Size = new System.Drawing.Size(134, 24);
+            this.radioButton32.Size = new System.Drawing.Size(372, 24);
             this.radioButton32.TabIndex = 0;
             this.radioButton32.TabStop = true;
-            this.radioButton32.Text = "radioButton32";
+            this.radioButton32.Text = "We Should also give a default value to my Var";
             this.radioButton32.UseVisualStyleBackColor = true;
             // 
             // lblMCQ7
@@ -797,9 +799,10 @@
             this.lblMCQ7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMCQ7.Location = new System.Drawing.Point(40, 1753);
             this.lblMCQ7.Name = "lblMCQ7";
-            this.lblMCQ7.Size = new System.Drawing.Size(245, 25);
+            this.lblMCQ7.Size = new System.Drawing.Size(1078, 25);
             this.lblMCQ7.TabIndex = 10;
-            this.lblMCQ7.Text = "Question 7: What is OOP?";
+            this.lblMCQ7.Text = "Which of the following is true about the function prototype below? Void myFun (in" +
+    "t myDef = 17 , int myVar , int myNormal=5);";
             // 
             // grpMCQ9
             // 
@@ -820,10 +823,10 @@
             this.radioButton37.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton37.Location = new System.Drawing.Point(26, 150);
             this.radioButton37.Name = "radioButton37";
-            this.radioButton37.Size = new System.Drawing.Size(134, 24);
+            this.radioButton37.Size = new System.Drawing.Size(144, 24);
             this.radioButton37.TabIndex = 3;
             this.radioButton37.TabStop = true;
-            this.radioButton37.Text = "radioButton37";
+            this.radioButton37.Text = "Overloading +=";
             this.radioButton37.UseVisualStyleBackColor = true;
             // 
             // radioButton38
@@ -832,10 +835,10 @@
             this.radioButton38.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton38.Location = new System.Drawing.Point(26, 105);
             this.radioButton38.Name = "radioButton38";
-            this.radioButton38.Size = new System.Drawing.Size(134, 24);
+            this.radioButton38.Size = new System.Drawing.Size(132, 24);
             this.radioButton38.TabIndex = 2;
             this.radioButton38.TabStop = true;
-            this.radioButton38.Text = "radioButton38";
+            this.radioButton38.Text = "Overloading ||";
             this.radioButton38.UseVisualStyleBackColor = true;
             // 
             // radioButton39
@@ -844,10 +847,10 @@
             this.radioButton39.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton39.Location = new System.Drawing.Point(26, 63);
             this.radioButton39.Name = "radioButton39";
-            this.radioButton39.Size = new System.Drawing.Size(134, 24);
+            this.radioButton39.Size = new System.Drawing.Size(144, 24);
             this.radioButton39.TabIndex = 1;
             this.radioButton39.TabStop = true;
-            this.radioButton39.Text = "radioButton39";
+            this.radioButton39.Text = "Overloading <<";
             this.radioButton39.UseVisualStyleBackColor = true;
             // 
             // radioButton40
@@ -856,10 +859,10 @@
             this.radioButton40.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton40.Location = new System.Drawing.Point(26, 21);
             this.radioButton40.Name = "radioButton40";
-            this.radioButton40.Size = new System.Drawing.Size(134, 24);
+            this.radioButton40.Size = new System.Drawing.Size(135, 24);
             this.radioButton40.TabIndex = 0;
             this.radioButton40.TabStop = true;
-            this.radioButton40.Text = "radioButton40";
+            this.radioButton40.Text = "Overloading &&";
             this.radioButton40.UseVisualStyleBackColor = true;
             // 
             // lblMCQ9
@@ -868,9 +871,9 @@
             this.lblMCQ9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMCQ9.Location = new System.Drawing.Point(40, 2247);
             this.lblMCQ9.Name = "lblMCQ9";
-            this.lblMCQ9.Size = new System.Drawing.Size(245, 25);
+            this.lblMCQ9.Size = new System.Drawing.Size(470, 25);
             this.lblMCQ9.TabIndex = 10;
-            this.lblMCQ9.Text = "Question 9: What is OOP?";
+            this.lblMCQ9.Text = "Which among the following can show polymorphism?";
             // 
             // grpMCQ10
             // 
@@ -881,7 +884,7 @@
             this.grpMCQ10.Controls.Add(this.radioButton44);
             this.grpMCQ10.Location = new System.Drawing.Point(45, 2530);
             this.grpMCQ10.Name = "grpMCQ10";
-            this.grpMCQ10.Size = new System.Drawing.Size(254, 186);
+            this.grpMCQ10.Size = new System.Drawing.Size(691, 186);
             this.grpMCQ10.TabIndex = 17;
             this.grpMCQ10.TabStop = false;
             // 
@@ -891,10 +894,10 @@
             this.radioButton41.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton41.Location = new System.Drawing.Point(26, 150);
             this.radioButton41.Name = "radioButton41";
-            this.radioButton41.Size = new System.Drawing.Size(134, 24);
+            this.radioButton41.Size = new System.Drawing.Size(159, 24);
             this.radioButton41.TabIndex = 3;
             this.radioButton41.TabStop = true;
-            this.radioButton41.Text = "radioButton41";
+            this.radioButton41.Text = "Using alias name";
             this.radioButton41.UseVisualStyleBackColor = true;
             // 
             // radioButton42
@@ -903,10 +906,10 @@
             this.radioButton42.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton42.Location = new System.Drawing.Point(26, 105);
             this.radioButton42.Name = "radioButton42";
-            this.radioButton42.Size = new System.Drawing.Size(134, 24);
+            this.radioButton42.Size = new System.Drawing.Size(133, 24);
             this.radioButton42.TabIndex = 2;
             this.radioButton42.TabStop = true;
-            this.radioButton42.Text = "radioButton42";
+            this.radioButton42.Text = "Can’t be done";
             this.radioButton42.UseVisualStyleBackColor = true;
             // 
             // radioButton43
@@ -915,10 +918,10 @@
             this.radioButton43.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton43.Location = new System.Drawing.Point(26, 63);
             this.radioButton43.Name = "radioButton43";
-            this.radioButton43.Size = new System.Drawing.Size(134, 24);
+            this.radioButton43.Size = new System.Drawing.Size(380, 24);
             this.radioButton43.TabIndex = 1;
             this.radioButton43.TabStop = true;
-            this.radioButton43.Text = "radioButton43";
+            this.radioButton43.Text = "Using virtual keyword with same name function";
             this.radioButton43.UseVisualStyleBackColor = true;
             // 
             // radioButton44
@@ -927,10 +930,10 @@
             this.radioButton44.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton44.Location = new System.Drawing.Point(26, 21);
             this.radioButton44.Name = "radioButton44";
-            this.radioButton44.Size = new System.Drawing.Size(134, 24);
+            this.radioButton44.Size = new System.Drawing.Size(247, 24);
             this.radioButton44.TabIndex = 0;
             this.radioButton44.TabStop = true;
-            this.radioButton44.Text = "radioButton44";
+            this.radioButton44.Text = "Using separate derived class";
             this.radioButton44.UseVisualStyleBackColor = true;
             // 
             // lblMCQ10
@@ -939,9 +942,9 @@
             this.lblMCQ10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMCQ10.Location = new System.Drawing.Point(40, 2502);
             this.lblMCQ10.Name = "lblMCQ10";
-            this.lblMCQ10.Size = new System.Drawing.Size(256, 25);
+            this.lblMCQ10.Size = new System.Drawing.Size(361, 25);
             this.lblMCQ10.TabIndex = 16;
-            this.lblMCQ10.Text = "Question 10: What is OOP?";
+            this.lblMCQ10.Text = "How to overcome the diamond problem?";
             // 
             // grpMCQ11
             // 
@@ -952,7 +955,7 @@
             this.grpMCQ11.Controls.Add(this.radioButton52);
             this.grpMCQ11.Location = new System.Drawing.Point(45, 2781);
             this.grpMCQ11.Name = "grpMCQ11";
-            this.grpMCQ11.Size = new System.Drawing.Size(254, 186);
+            this.grpMCQ11.Size = new System.Drawing.Size(794, 186);
             this.grpMCQ11.TabIndex = 11;
             this.grpMCQ11.TabStop = false;
             // 
@@ -962,11 +965,12 @@
             this.radioButton49.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton49.Location = new System.Drawing.Point(26, 150);
             this.radioButton49.Name = "radioButton49";
-            this.radioButton49.Size = new System.Drawing.Size(134, 24);
+            this.radioButton49.Size = new System.Drawing.Size(539, 24);
             this.radioButton49.TabIndex = 3;
             this.radioButton49.TabStop = true;
-            this.radioButton49.Text = "radioButton49";
+            this.radioButton49.Text = "class base_classname : derived_classname{ /*define class body*/ };";
             this.radioButton49.UseVisualStyleBackColor = true;
+            this.radioButton49.CheckedChanged += new System.EventHandler(this.radioButton49_CheckedChanged);
             // 
             // radioButton50
             // 
@@ -974,10 +978,10 @@
             this.radioButton50.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton50.Location = new System.Drawing.Point(26, 105);
             this.radioButton50.Name = "radioButton50";
-            this.radioButton50.Size = new System.Drawing.Size(134, 24);
+            this.radioButton50.Size = new System.Drawing.Size(539, 24);
             this.radioButton50.TabIndex = 2;
             this.radioButton50.TabStop = true;
-            this.radioButton50.Text = "radioButton50";
+            this.radioButton50.Text = "class derived_classname : base_classname{ /*define class body*/ };";
             this.radioButton50.UseVisualStyleBackColor = true;
             // 
             // radioButton51
@@ -986,10 +990,10 @@
             this.radioButton51.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton51.Location = new System.Drawing.Point(26, 63);
             this.radioButton51.Name = "radioButton51";
-            this.radioButton51.Size = new System.Drawing.Size(134, 24);
+            this.radioButton51.Size = new System.Drawing.Size(598, 24);
             this.radioButton51.TabIndex = 1;
             this.radioButton51.TabStop = true;
-            this.radioButton51.Text = "radioButton51";
+            this.radioButton51.Text = "class derived_classname : access base_classname{ /*define class body*/ };";
             this.radioButton51.UseVisualStyleBackColor = true;
             // 
             // radioButton52
@@ -998,10 +1002,10 @@
             this.radioButton52.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton52.Location = new System.Drawing.Point(26, 21);
             this.radioButton52.Name = "radioButton52";
-            this.radioButton52.Size = new System.Drawing.Size(134, 24);
+            this.radioButton52.Size = new System.Drawing.Size(593, 24);
             this.radioButton52.TabIndex = 0;
             this.radioButton52.TabStop = true;
-            this.radioButton52.Text = "radioButton52";
+            this.radioButton52.Text = "class base_classname :access derived_classname{ /*define class body*/ };";
             this.radioButton52.UseVisualStyleBackColor = true;
             // 
             // lblMCQ11
@@ -1010,9 +1014,9 @@
             this.lblMCQ11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMCQ11.Location = new System.Drawing.Point(40, 2753);
             this.lblMCQ11.Name = "lblMCQ11";
-            this.lblMCQ11.Size = new System.Drawing.Size(256, 25);
+            this.lblMCQ11.Size = new System.Drawing.Size(377, 25);
             this.lblMCQ11.TabIndex = 10;
-            this.lblMCQ11.Text = "Question 11: What is OOP?";
+            this.lblMCQ11.Text = "Which is the correct syntax of inheritance?";
             // 
             // grpMCQ13
             // 
@@ -1023,7 +1027,7 @@
             this.grpMCQ13.Controls.Add(this.radioButton56);
             this.grpMCQ13.Location = new System.Drawing.Point(45, 3282);
             this.grpMCQ13.Name = "grpMCQ13";
-            this.grpMCQ13.Size = new System.Drawing.Size(254, 186);
+            this.grpMCQ13.Size = new System.Drawing.Size(666, 186);
             this.grpMCQ13.TabIndex = 19;
             this.grpMCQ13.TabStop = false;
             // 
@@ -1033,10 +1037,10 @@
             this.radioButton53.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton53.Location = new System.Drawing.Point(26, 150);
             this.radioButton53.Name = "radioButton53";
-            this.radioButton53.Size = new System.Drawing.Size(134, 24);
+            this.radioButton53.Size = new System.Drawing.Size(102, 24);
             this.radioButton53.TabIndex = 3;
             this.radioButton53.TabStop = true;
-            this.radioButton53.Text = "radioButton53";
+            this.radioButton53.Text = "Protected";
             this.radioButton53.UseVisualStyleBackColor = true;
             // 
             // radioButton54
@@ -1045,10 +1049,10 @@
             this.radioButton54.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton54.Location = new System.Drawing.Point(26, 105);
             this.radioButton54.Name = "radioButton54";
-            this.radioButton54.Size = new System.Drawing.Size(134, 24);
+            this.radioButton54.Size = new System.Drawing.Size(76, 24);
             this.radioButton54.TabIndex = 2;
             this.radioButton54.TabStop = true;
-            this.radioButton54.Text = "radioButton54";
+            this.radioButton54.Text = "Public";
             this.radioButton54.UseVisualStyleBackColor = true;
             // 
             // radioButton55
@@ -1057,10 +1061,10 @@
             this.radioButton55.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton55.Location = new System.Drawing.Point(26, 63);
             this.radioButton55.Name = "radioButton55";
-            this.radioButton55.Size = new System.Drawing.Size(134, 24);
+            this.radioButton55.Size = new System.Drawing.Size(82, 24);
             this.radioButton55.TabIndex = 1;
             this.radioButton55.TabStop = true;
-            this.radioButton55.Text = "radioButton55";
+            this.radioButton55.Text = "Private";
             this.radioButton55.UseVisualStyleBackColor = true;
             // 
             // radioButton56
@@ -1069,10 +1073,10 @@
             this.radioButton56.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton56.Location = new System.Drawing.Point(26, 21);
             this.radioButton56.Name = "radioButton56";
-            this.radioButton56.Size = new System.Drawing.Size(134, 24);
+            this.radioButton56.Size = new System.Drawing.Size(255, 24);
             this.radioButton56.TabIndex = 0;
             this.radioButton56.TabStop = true;
-            this.radioButton56.Text = "radioButton56";
+            this.radioButton56.Text = "Any access specifier will work";
             this.radioButton56.UseVisualStyleBackColor = true;
             // 
             // lblMCQ13
@@ -1081,9 +1085,10 @@
             this.lblMCQ13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMCQ13.Location = new System.Drawing.Point(40, 3254);
             this.lblMCQ13.Name = "lblMCQ13";
-            this.lblMCQ13.Size = new System.Drawing.Size(256, 25);
+            this.lblMCQ13.Size = new System.Drawing.Size(961, 25);
             this.lblMCQ13.TabIndex = 18;
-            this.lblMCQ13.Text = "Question 13: What is OOP?";
+            this.lblMCQ13.Text = "In which access should a constructor be defined, so that the object of the class " +
+    "can be created in any function?";
             // 
             // grpMCQ12
             // 
@@ -1094,7 +1099,7 @@
             this.grpMCQ12.Controls.Add(this.radioButton60);
             this.grpMCQ12.Location = new System.Drawing.Point(45, 3031);
             this.grpMCQ12.Name = "grpMCQ12";
-            this.grpMCQ12.Size = new System.Drawing.Size(254, 186);
+            this.grpMCQ12.Size = new System.Drawing.Size(666, 186);
             this.grpMCQ12.TabIndex = 21;
             this.grpMCQ12.TabStop = false;
             // 
@@ -1104,10 +1109,10 @@
             this.radioButton57.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton57.Location = new System.Drawing.Point(26, 150);
             this.radioButton57.Name = "radioButton57";
-            this.radioButton57.Size = new System.Drawing.Size(134, 24);
+            this.radioButton57.Size = new System.Drawing.Size(233, 24);
             this.radioButton57.TabIndex = 3;
             this.radioButton57.TabStop = true;
-            this.radioButton57.Text = "radioButton57";
+            this.radioButton57.Text = "Showing the important data";
             this.radioButton57.UseVisualStyleBackColor = true;
             // 
             // radioButton58
@@ -1116,10 +1121,10 @@
             this.radioButton58.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton58.Location = new System.Drawing.Point(26, 105);
             this.radioButton58.Name = "radioButton58";
-            this.radioButton58.Size = new System.Drawing.Size(134, 24);
+            this.radioButton58.Size = new System.Drawing.Size(224, 24);
             this.radioButton58.TabIndex = 2;
             this.radioButton58.TabStop = true;
-            this.radioButton58.Text = "radioButton58";
+            this.radioButton58.Text = "Hiding the implementation";
             this.radioButton58.UseVisualStyleBackColor = true;
             // 
             // radioButton59
@@ -1128,10 +1133,10 @@
             this.radioButton59.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton59.Location = new System.Drawing.Point(26, 63);
             this.radioButton59.Name = "radioButton59";
-            this.radioButton59.Size = new System.Drawing.Size(134, 24);
+            this.radioButton59.Size = new System.Drawing.Size(218, 24);
             this.radioButton59.TabIndex = 1;
             this.radioButton59.TabStop = true;
-            this.radioButton59.Text = "radioButton59";
+            this.radioButton59.Text = "Hiding the important data";
             this.radioButton59.UseVisualStyleBackColor = true;
             // 
             // radioButton60
@@ -1140,10 +1145,10 @@
             this.radioButton60.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton60.Location = new System.Drawing.Point(26, 21);
             this.radioButton60.Name = "radioButton60";
-            this.radioButton60.Size = new System.Drawing.Size(134, 24);
+            this.radioButton60.Size = new System.Drawing.Size(451, 24);
             this.radioButton60.TabIndex = 0;
             this.radioButton60.TabStop = true;
-            this.radioButton60.Text = "radioButton60";
+            this.radioButton60.Text = "Hiding the implementation and showing only the features";
             this.radioButton60.UseVisualStyleBackColor = true;
             // 
             // lblMCQ12
@@ -1152,9 +1157,9 @@
             this.lblMCQ12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMCQ12.Location = new System.Drawing.Point(40, 3003);
             this.lblMCQ12.Name = "lblMCQ12";
-            this.lblMCQ12.Size = new System.Drawing.Size(256, 25);
+            this.lblMCQ12.Size = new System.Drawing.Size(489, 25);
             this.lblMCQ12.TabIndex = 20;
-            this.lblMCQ12.Text = "Question 12: What is OOP?";
+            this.lblMCQ12.Text = "What is an abstraction in object-oriented programming?";
             // 
             // grpMCQ15
             // 
@@ -1165,7 +1170,7 @@
             this.grpMCQ15.Controls.Add(this.radioButton64);
             this.grpMCQ15.Location = new System.Drawing.Point(45, 3789);
             this.grpMCQ15.Name = "grpMCQ15";
-            this.grpMCQ15.Size = new System.Drawing.Size(254, 186);
+            this.grpMCQ15.Size = new System.Drawing.Size(609, 186);
             this.grpMCQ15.TabIndex = 19;
             this.grpMCQ15.TabStop = false;
             // 
@@ -1175,10 +1180,10 @@
             this.radioButton61.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton61.Location = new System.Drawing.Point(26, 150);
             this.radioButton61.Name = "radioButton61";
-            this.radioButton61.Size = new System.Drawing.Size(134, 24);
+            this.radioButton61.Size = new System.Drawing.Size(436, 24);
             this.radioButton61.TabIndex = 3;
             this.radioButton61.TabStop = true;
-            this.radioButton61.Text = "radioButton61";
+            this.radioButton61.Text = "The language should follow 3 or more features of OOP";
             this.radioButton61.UseVisualStyleBackColor = true;
             // 
             // radioButton62
@@ -1187,11 +1192,12 @@
             this.radioButton62.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton62.Location = new System.Drawing.Point(26, 105);
             this.radioButton62.Name = "radioButton62";
-            this.radioButton62.Size = new System.Drawing.Size(134, 24);
+            this.radioButton62.Size = new System.Drawing.Size(373, 24);
             this.radioButton62.TabIndex = 2;
             this.radioButton62.TabStop = true;
-            this.radioButton62.Text = "radioButton62";
+            this.radioButton62.Text = "The language must follow all the rules of OOP";
             this.radioButton62.UseVisualStyleBackColor = true;
+            this.radioButton62.CheckedChanged += new System.EventHandler(this.radioButton62_CheckedChanged);
             // 
             // radioButton63
             // 
@@ -1199,10 +1205,10 @@
             this.radioButton63.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton63.Location = new System.Drawing.Point(26, 63);
             this.radioButton63.Name = "radioButton63";
-            this.radioButton63.Size = new System.Drawing.Size(134, 24);
+            this.radioButton63.Size = new System.Drawing.Size(396, 24);
             this.radioButton63.TabIndex = 1;
             this.radioButton63.TabStop = true;
-            this.radioButton63.Text = "radioButton63";
+            this.radioButton63.Text = "The language must follow only 3 features of OOP";
             this.radioButton63.UseVisualStyleBackColor = true;
             // 
             // radioButton64
@@ -1211,10 +1217,10 @@
             this.radioButton64.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton64.Location = new System.Drawing.Point(26, 21);
             this.radioButton64.Name = "radioButton64";
-            this.radioButton64.Size = new System.Drawing.Size(134, 24);
+            this.radioButton64.Size = new System.Drawing.Size(424, 24);
             this.radioButton64.TabIndex = 0;
             this.radioButton64.TabStop = true;
-            this.radioButton64.Text = "radioButton64";
+            this.radioButton64.Text = "The language should follow at least 1 feature of OOP";
             this.radioButton64.UseVisualStyleBackColor = true;
             // 
             // lblMCQ15
@@ -1223,9 +1229,9 @@
             this.lblMCQ15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMCQ15.Location = new System.Drawing.Point(40, 3761);
             this.lblMCQ15.Name = "lblMCQ15";
-            this.lblMCQ15.Size = new System.Drawing.Size(256, 25);
+            this.lblMCQ15.Size = new System.Drawing.Size(546, 25);
             this.lblMCQ15.TabIndex = 18;
-            this.lblMCQ15.Text = "Question 15: What is OOP?";
+            this.lblMCQ15.Text = "Which among the following, for a pure OOP language, is true?";
             // 
             // grpMCQ14
             // 
@@ -1246,10 +1252,10 @@
             this.radioButton65.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton65.Location = new System.Drawing.Point(26, 150);
             this.radioButton65.Name = "radioButton65";
-            this.radioButton65.Size = new System.Drawing.Size(134, 24);
+            this.radioButton65.Size = new System.Drawing.Size(112, 24);
             this.radioButton65.TabIndex = 3;
             this.radioButton65.TabStop = true;
-            this.radioButton65.Text = "radioButton65";
+            this.radioButton65.Text = "Inheritance";
             this.radioButton65.UseVisualStyleBackColor = true;
             // 
             // radioButton66
@@ -1258,10 +1264,10 @@
             this.radioButton66.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton66.Location = new System.Drawing.Point(26, 105);
             this.radioButton66.Name = "radioButton66";
-            this.radioButton66.Size = new System.Drawing.Size(134, 24);
+            this.radioButton66.Size = new System.Drawing.Size(135, 24);
             this.radioButton66.TabIndex = 2;
             this.radioButton66.TabStop = true;
-            this.radioButton66.Text = "radioButton66";
+            this.radioButton66.Text = "Encapsulation";
             this.radioButton66.UseVisualStyleBackColor = true;
             // 
             // radioButton67
@@ -1270,10 +1276,10 @@
             this.radioButton67.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton67.Location = new System.Drawing.Point(26, 63);
             this.radioButton67.Name = "radioButton67";
-            this.radioButton67.Size = new System.Drawing.Size(134, 24);
+            this.radioButton67.Size = new System.Drawing.Size(136, 24);
             this.radioButton67.TabIndex = 1;
             this.radioButton67.TabStop = true;
-            this.radioButton67.Text = "radioButton67";
+            this.radioButton67.Text = "Polymorphism";
             this.radioButton67.UseVisualStyleBackColor = true;
             // 
             // radioButton68
@@ -1282,10 +1288,10 @@
             this.radioButton68.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton68.Location = new System.Drawing.Point(26, 21);
             this.radioButton68.Name = "radioButton68";
-            this.radioButton68.Size = new System.Drawing.Size(134, 24);
+            this.radioButton68.Size = new System.Drawing.Size(115, 24);
             this.radioButton68.TabIndex = 0;
             this.radioButton68.TabStop = true;
-            this.radioButton68.Text = "radioButton68";
+            this.radioButton68.Text = "Abstraction";
             this.radioButton68.UseVisualStyleBackColor = true;
             // 
             // lblMCQ14
@@ -1294,9 +1300,9 @@
             this.lblMCQ14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMCQ14.Location = new System.Drawing.Point(40, 3510);
             this.lblMCQ14.Name = "lblMCQ14";
-            this.lblMCQ14.Size = new System.Drawing.Size(256, 25);
+            this.lblMCQ14.Size = new System.Drawing.Size(437, 25);
             this.lblMCQ14.TabIndex = 20;
-            this.lblMCQ14.Text = "Question 14: What is OOP?";
+            this.lblMCQ14.Text = "Which feature of OOP indicates code reusability?";
             // 
             // grpTF1
             // 
@@ -1315,10 +1321,10 @@
             this.radioButton35.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton35.Location = new System.Drawing.Point(26, 63);
             this.radioButton35.Name = "radioButton35";
-            this.radioButton35.Size = new System.Drawing.Size(134, 24);
+            this.radioButton35.Size = new System.Drawing.Size(71, 24);
             this.radioButton35.TabIndex = 1;
             this.radioButton35.TabStop = true;
-            this.radioButton35.Text = "radioButton35";
+            this.radioButton35.Text = "False";
             this.radioButton35.UseVisualStyleBackColor = true;
             // 
             // radioButton36
@@ -1327,10 +1333,10 @@
             this.radioButton36.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton36.Location = new System.Drawing.Point(26, 21);
             this.radioButton36.Name = "radioButton36";
-            this.radioButton36.Size = new System.Drawing.Size(134, 24);
+            this.radioButton36.Size = new System.Drawing.Size(64, 24);
             this.radioButton36.TabIndex = 0;
             this.radioButton36.TabStop = true;
-            this.radioButton36.Text = "radioButton36";
+            this.radioButton36.Text = "True";
             this.radioButton36.UseVisualStyleBackColor = true;
             // 
             // lblTF1
@@ -1339,9 +1345,11 @@
             this.lblTF1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTF1.Location = new System.Drawing.Point(53, 4140);
             this.lblTF1.Name = "lblTF1";
-            this.lblTF1.Size = new System.Drawing.Size(256, 25);
+            this.lblTF1.Size = new System.Drawing.Size(786, 25);
             this.lblTF1.TabIndex = 20;
-            this.lblTF1.Text = "Question 15: What is OOP?";
+            this.lblTF1.Text = "Multilevel inheritance is allowed as an object-oriented concept, but it is not al" +
+    "lowed in C++.";
+            this.lblTF1.Click += new System.EventHandler(this.lblTF1_Click);
             // 
             // lablblQuestionTrue
             // 
@@ -1371,10 +1379,10 @@
             this.radioButton45.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton45.Location = new System.Drawing.Point(26, 63);
             this.radioButton45.Name = "radioButton45";
-            this.radioButton45.Size = new System.Drawing.Size(134, 24);
+            this.radioButton45.Size = new System.Drawing.Size(71, 24);
             this.radioButton45.TabIndex = 1;
             this.radioButton45.TabStop = true;
-            this.radioButton45.Text = "radioButton45";
+            this.radioButton45.Text = "False";
             this.radioButton45.UseVisualStyleBackColor = true;
             // 
             // radioButton46
@@ -1383,10 +1391,10 @@
             this.radioButton46.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton46.Location = new System.Drawing.Point(26, 21);
             this.radioButton46.Name = "radioButton46";
-            this.radioButton46.Size = new System.Drawing.Size(134, 24);
+            this.radioButton46.Size = new System.Drawing.Size(64, 24);
             this.radioButton46.TabIndex = 0;
             this.radioButton46.TabStop = true;
-            this.radioButton46.Text = "radioButton46";
+            this.radioButton46.Text = "True";
             this.radioButton46.UseVisualStyleBackColor = true;
             // 
             // lblTF2
@@ -1395,9 +1403,10 @@
             this.lblTF2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTF2.Location = new System.Drawing.Point(53, 4316);
             this.lblTF2.Name = "lblTF2";
-            this.lblTF2.Size = new System.Drawing.Size(256, 25);
+            this.lblTF2.Size = new System.Drawing.Size(966, 25);
             this.lblTF2.TabIndex = 22;
-            this.lblTF2.Text = "Question 15: What is OOP?";
+            this.lblTF2.Text = "Call by reference gives the same effect as call by address, as both access the or" +
+    "iginal data through its address.";
             // 
             // grpTF3
             // 
@@ -1416,10 +1425,10 @@
             this.radioButton47.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton47.Location = new System.Drawing.Point(26, 63);
             this.radioButton47.Name = "radioButton47";
-            this.radioButton47.Size = new System.Drawing.Size(134, 24);
+            this.radioButton47.Size = new System.Drawing.Size(71, 24);
             this.radioButton47.TabIndex = 1;
             this.radioButton47.TabStop = true;
-            this.radioButton47.Text = "radioButton47";
+            this.radioButton47.Text = "False";
             this.radioButton47.UseVisualStyleBackColor = true;
             // 
             // radioButton48
@@ -1428,10 +1437,10 @@
             this.radioButton48.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton48.Location = new System.Drawing.Point(26, 21);
             this.radioButton48.Name = "radioButton48";
-            this.radioButton48.Size = new System.Drawing.Size(134, 24);
+            this.radioButton48.Size = new System.Drawing.Size(64, 24);
             this.radioButton48.TabIndex = 0;
             this.radioButton48.TabStop = true;
-            this.radioButton48.Text = "radioButton48";
+            this.radioButton48.Text = "True";
             this.radioButton48.UseVisualStyleBackColor = true;
             // 
             // lblTF3
@@ -1440,9 +1449,10 @@
             this.lblTF3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTF3.Location = new System.Drawing.Point(56, 4491);
             this.lblTF3.Name = "lblTF3";
-            this.lblTF3.Size = new System.Drawing.Size(256, 25);
+            this.lblTF3.Size = new System.Drawing.Size(939, 25);
             this.lblTF3.TabIndex = 24;
-            this.lblTF3.Text = "Question 15: What is OOP?";
+            this.lblTF3.Text = "The term “Encapsulation” refers to an object of a class that contains another obj" +
+    "ect of another class inside it.";
             // 
             // grpTF4
             // 
@@ -1461,10 +1471,10 @@
             this.radioButton69.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton69.Location = new System.Drawing.Point(26, 63);
             this.radioButton69.Name = "radioButton69";
-            this.radioButton69.Size = new System.Drawing.Size(134, 24);
+            this.radioButton69.Size = new System.Drawing.Size(71, 24);
             this.radioButton69.TabIndex = 1;
             this.radioButton69.TabStop = true;
-            this.radioButton69.Text = "radioButton69";
+            this.radioButton69.Text = "False";
             this.radioButton69.UseVisualStyleBackColor = true;
             // 
             // radioButton70
@@ -1473,10 +1483,10 @@
             this.radioButton70.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton70.Location = new System.Drawing.Point(26, 21);
             this.radioButton70.Name = "radioButton70";
-            this.radioButton70.Size = new System.Drawing.Size(134, 24);
+            this.radioButton70.Size = new System.Drawing.Size(64, 24);
             this.radioButton70.TabIndex = 0;
             this.radioButton70.TabStop = true;
-            this.radioButton70.Text = "radioButton70";
+            this.radioButton70.Text = "True";
             this.radioButton70.UseVisualStyleBackColor = true;
             // 
             // lblTF4
@@ -1485,9 +1495,11 @@
             this.lblTF4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTF4.Location = new System.Drawing.Point(53, 4673);
             this.lblTF4.Name = "lblTF4";
-            this.lblTF4.Size = new System.Drawing.Size(256, 25);
+            this.lblTF4.Size = new System.Drawing.Size(991, 25);
             this.lblTF4.TabIndex = 24;
-            this.lblTF4.Text = "Question 15: What is OOP?";
+            this.lblTF4.Text = "If a certain function is made a friend for class A, then that function can access" +
+    " only the private members of class A.";
+            this.lblTF4.Click += new System.EventHandler(this.lblTF4_Click);
             // 
             // grpTF5
             // 
@@ -1506,10 +1518,10 @@
             this.radioButton71.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton71.Location = new System.Drawing.Point(26, 63);
             this.radioButton71.Name = "radioButton71";
-            this.radioButton71.Size = new System.Drawing.Size(134, 24);
+            this.radioButton71.Size = new System.Drawing.Size(71, 24);
             this.radioButton71.TabIndex = 1;
             this.radioButton71.TabStop = true;
-            this.radioButton71.Text = "radioButton71";
+            this.radioButton71.Text = "False";
             this.radioButton71.UseVisualStyleBackColor = true;
             // 
             // radioButton72
@@ -1518,21 +1530,23 @@
             this.radioButton72.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton72.Location = new System.Drawing.Point(26, 21);
             this.radioButton72.Name = "radioButton72";
-            this.radioButton72.Size = new System.Drawing.Size(134, 24);
+            this.radioButton72.Size = new System.Drawing.Size(64, 24);
             this.radioButton72.TabIndex = 0;
             this.radioButton72.TabStop = true;
-            this.radioButton72.Text = "radioButton72";
+            this.radioButton72.Text = "True";
             this.radioButton72.UseVisualStyleBackColor = true;
             // 
             // lblTF5
             // 
             this.lblTF5.AutoSize = true;
             this.lblTF5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTF5.Location = new System.Drawing.Point(56, 4853);
+            this.lblTF5.Location = new System.Drawing.Point(56, 4840);
             this.lblTF5.Name = "lblTF5";
-            this.lblTF5.Size = new System.Drawing.Size(256, 25);
+            this.lblTF5.Size = new System.Drawing.Size(1046, 25);
             this.lblTF5.TabIndex = 24;
-            this.lblTF5.Text = "Question 15: What is OOP?";
+            this.lblTF5.Text = "When overloading a certain function, it is obligatory that we specify a different" +
+    " number of parameters for the new function.";
+            this.lblTF5.Click += new System.EventHandler(this.lblTF5_Click);
             // 
             // grpTF6
             // 
@@ -1551,10 +1565,10 @@
             this.radioButton73.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton73.Location = new System.Drawing.Point(26, 63);
             this.radioButton73.Name = "radioButton73";
-            this.radioButton73.Size = new System.Drawing.Size(134, 24);
+            this.radioButton73.Size = new System.Drawing.Size(71, 24);
             this.radioButton73.TabIndex = 1;
             this.radioButton73.TabStop = true;
-            this.radioButton73.Text = "radioButton73";
+            this.radioButton73.Text = "False";
             this.radioButton73.UseVisualStyleBackColor = true;
             // 
             // radioButton74
@@ -1563,10 +1577,10 @@
             this.radioButton74.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton74.Location = new System.Drawing.Point(26, 21);
             this.radioButton74.Name = "radioButton74";
-            this.radioButton74.Size = new System.Drawing.Size(134, 24);
+            this.radioButton74.Size = new System.Drawing.Size(64, 24);
             this.radioButton74.TabIndex = 0;
             this.radioButton74.TabStop = true;
-            this.radioButton74.Text = "radioButton74";
+            this.radioButton74.Text = "True";
             this.radioButton74.UseVisualStyleBackColor = true;
             // 
             // lblTF6
@@ -1575,9 +1589,10 @@
             this.lblTF6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTF6.Location = new System.Drawing.Point(53, 5034);
             this.lblTF6.Name = "lblTF6";
-            this.lblTF6.Size = new System.Drawing.Size(256, 25);
+            this.lblTF6.Size = new System.Drawing.Size(881, 25);
             this.lblTF6.TabIndex = 24;
-            this.lblTF6.Text = "Question 15: What is OOP?";
+            this.lblTF6.Text = "As a non-static method is called by an object from the class, it can deal with no" +
+    "n-static members only.";
             // 
             // grpTF7
             // 
@@ -1596,10 +1611,10 @@
             this.radioButton75.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton75.Location = new System.Drawing.Point(26, 63);
             this.radioButton75.Name = "radioButton75";
-            this.radioButton75.Size = new System.Drawing.Size(134, 24);
+            this.radioButton75.Size = new System.Drawing.Size(67, 24);
             this.radioButton75.TabIndex = 1;
             this.radioButton75.TabStop = true;
-            this.radioButton75.Text = "radioButton75";
+            this.radioButton75.Text = "Fase";
             this.radioButton75.UseVisualStyleBackColor = true;
             // 
             // radioButton76
@@ -1608,10 +1623,10 @@
             this.radioButton76.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton76.Location = new System.Drawing.Point(26, 21);
             this.radioButton76.Name = "radioButton76";
-            this.radioButton76.Size = new System.Drawing.Size(134, 24);
+            this.radioButton76.Size = new System.Drawing.Size(64, 24);
             this.radioButton76.TabIndex = 0;
             this.radioButton76.TabStop = true;
-            this.radioButton76.Text = "radioButton76";
+            this.radioButton76.Text = "True";
             this.radioButton76.UseVisualStyleBackColor = true;
             // 
             // lblTF7
@@ -1620,9 +1635,10 @@
             this.lblTF7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTF7.Location = new System.Drawing.Point(53, 5220);
             this.lblTF7.Name = "lblTF7";
-            this.lblTF7.Size = new System.Drawing.Size(256, 25);
+            this.lblTF7.Size = new System.Drawing.Size(1051, 25);
             this.lblTF7.TabIndex = 24;
-            this.lblTF7.Text = "Question 15: What is OOP?";
+            this.lblTF7.Text = "When inheriting from a Base class, the Derived class will inherit only the protec" +
+    "ted and public members of the Base class.";
             // 
             // grpTF8
             // 
@@ -1641,10 +1657,10 @@
             this.radioButton77.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton77.Location = new System.Drawing.Point(26, 63);
             this.radioButton77.Name = "radioButton77";
-            this.radioButton77.Size = new System.Drawing.Size(134, 24);
+            this.radioButton77.Size = new System.Drawing.Size(71, 24);
             this.radioButton77.TabIndex = 1;
             this.radioButton77.TabStop = true;
-            this.radioButton77.Text = "radioButton77";
+            this.radioButton77.Text = "False";
             this.radioButton77.UseVisualStyleBackColor = true;
             // 
             // radioButton78
@@ -1653,10 +1669,10 @@
             this.radioButton78.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton78.Location = new System.Drawing.Point(26, 21);
             this.radioButton78.Name = "radioButton78";
-            this.radioButton78.Size = new System.Drawing.Size(134, 24);
+            this.radioButton78.Size = new System.Drawing.Size(64, 24);
             this.radioButton78.TabIndex = 0;
             this.radioButton78.TabStop = true;
-            this.radioButton78.Text = "radioButton78";
+            this.radioButton78.Text = "True";
             this.radioButton78.UseVisualStyleBackColor = true;
             // 
             // lblTF8
@@ -1665,9 +1681,9 @@
             this.lblTF8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTF8.Location = new System.Drawing.Point(53, 5404);
             this.lblTF8.Name = "lblTF8";
-            this.lblTF8.Size = new System.Drawing.Size(256, 25);
+            this.lblTF8.Size = new System.Drawing.Size(507, 25);
             this.lblTF8.TabIndex = 24;
-            this.lblTF8.Text = "Question 15: What is OOP?";
+            this.lblTF8.Text = "Inline methods can’t be applied for non-member methods.";
             // 
             // grpTF9
             // 
@@ -1686,10 +1702,10 @@
             this.radioButton79.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton79.Location = new System.Drawing.Point(26, 63);
             this.radioButton79.Name = "radioButton79";
-            this.radioButton79.Size = new System.Drawing.Size(134, 24);
+            this.radioButton79.Size = new System.Drawing.Size(71, 24);
             this.radioButton79.TabIndex = 1;
             this.radioButton79.TabStop = true;
-            this.radioButton79.Text = "radioButton79";
+            this.radioButton79.Text = "False";
             this.radioButton79.UseVisualStyleBackColor = true;
             // 
             // radioButton80
@@ -1698,10 +1714,10 @@
             this.radioButton80.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton80.Location = new System.Drawing.Point(26, 21);
             this.radioButton80.Name = "radioButton80";
-            this.radioButton80.Size = new System.Drawing.Size(134, 24);
+            this.radioButton80.Size = new System.Drawing.Size(64, 24);
             this.radioButton80.TabIndex = 0;
             this.radioButton80.TabStop = true;
-            this.radioButton80.Text = "radioButton80";
+            this.radioButton80.Text = "True";
             this.radioButton80.UseVisualStyleBackColor = true;
             // 
             // lblTF9
@@ -1710,9 +1726,9 @@
             this.lblTF9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTF9.Location = new System.Drawing.Point(56, 5590);
             this.lblTF9.Name = "lblTF9";
-            this.lblTF9.Size = new System.Drawing.Size(256, 25);
+            this.lblTF9.Size = new System.Drawing.Size(680, 25);
             this.lblTF9.TabIndex = 24;
-            this.lblTF9.Text = "Question 15: What is OOP?";
+            this.lblTF9.Text = "Constructor of a class is responsible for removing the object from the memory.";
             // 
             // grpTF10
             // 
@@ -1731,10 +1747,10 @@
             this.radioButton81.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton81.Location = new System.Drawing.Point(26, 63);
             this.radioButton81.Name = "radioButton81";
-            this.radioButton81.Size = new System.Drawing.Size(134, 24);
+            this.radioButton81.Size = new System.Drawing.Size(71, 24);
             this.radioButton81.TabIndex = 1;
             this.radioButton81.TabStop = true;
-            this.radioButton81.Text = "radioButton81";
+            this.radioButton81.Text = "False";
             this.radioButton81.UseVisualStyleBackColor = true;
             // 
             // radioButton82
@@ -1743,10 +1759,10 @@
             this.radioButton82.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton82.Location = new System.Drawing.Point(26, 21);
             this.radioButton82.Name = "radioButton82";
-            this.radioButton82.Size = new System.Drawing.Size(134, 24);
+            this.radioButton82.Size = new System.Drawing.Size(64, 24);
             this.radioButton82.TabIndex = 0;
             this.radioButton82.TabStop = true;
-            this.radioButton82.Text = "radioButton82";
+            this.radioButton82.Text = "True";
             this.radioButton82.UseVisualStyleBackColor = true;
             // 
             // lblTF10
@@ -1755,9 +1771,10 @@
             this.lblTF10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTF10.Location = new System.Drawing.Point(53, 5761);
             this.lblTF10.Name = "lblTF10";
-            this.lblTF10.Size = new System.Drawing.Size(256, 25);
+            this.lblTF10.Size = new System.Drawing.Size(834, 25);
             this.lblTF10.TabIndex = 24;
-            this.lblTF10.Text = "Question 15: What is OOP?";
+            this.lblTF10.Text = "When the default constructor is absent, the compiler always creates an auto-defau" +
+    "lt constructor.";
             // 
             // btnSubmitAnswers
             // 
@@ -1840,7 +1857,7 @@
             this.Controls.Add(this.examCrsName);
             this.Controls.Add(this.pictureBox1);
             this.Name = "UC_ExamScreen";
-            this.Size = new System.Drawing.Size(1056, 6148);
+            this.Size = new System.Drawing.Size(1121, 6148);
             this.Load += new System.EventHandler(this.UC_ExamScreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.grpMCQ1.ResumeLayout(false);

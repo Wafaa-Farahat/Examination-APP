@@ -41,16 +41,16 @@
             this.insUsernameLabel = new System.Windows.Forms.Label();
             this.insProfilePictureBox = new System.Windows.Forms.PictureBox();
             this.instHomePanel = new System.Windows.Forms.Panel();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.uC_CoursesList1 = new ExamManagmentSystem.Instructor_UsrCtrl.UC_CoursesList();
             this.uC_StudentsResults1 = new ExamManagmentSystem.Instructor_UsrCtrl.UC_StudentsResults();
             this.uC_ViewRegisteredStudents1 = new ExamManagmentSystem.Instructor_UsrCtrl.UC_ViewRegisteredStudents();
             this.uC_ViewQuestion1 = new ExamManagmentSystem.Instructor_UsrCtrl.UC_ViewQuestion();
             this.uC_GenerateExam1 = new ExamManagmentSystem.Instructor_UsrCtrl.UC_GenerateExam();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.insMenuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.insProfilePictureBox)).BeginInit();
             this.instHomePanel.SuspendLayout();
@@ -283,26 +283,6 @@
             this.instHomePanel.TabIndex = 1;
             this.instHomePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.TargetControl = this.instHomePanel;
-            // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.TargetControl = this.instHomePanel;
-            // 
-            // guna2Elipse3
-            // 
-            this.guna2Elipse3.TargetControl = this.instHomePanel;
-            // 
-            // guna2Elipse4
-            // 
-            this.guna2Elipse4.TargetControl = this.instHomePanel;
-            // 
-            // guna2Elipse5
-            // 
-            this.guna2Elipse5.TargetControl = this.instHomePanel;
-            // 
             // uC_CoursesList1
             // 
             this.uC_CoursesList1.BackColor = System.Drawing.Color.White;
@@ -311,6 +291,7 @@
             this.uC_CoursesList1.Name = "uC_CoursesList1";
             this.uC_CoursesList1.Size = new System.Drawing.Size(1056, 886);
             this.uC_CoursesList1.TabIndex = 28;
+            this.uC_CoursesList1.Load += new System.EventHandler(this.uC_CoursesList1_Load);
             // 
             // uC_StudentsResults1
             // 
@@ -344,6 +325,26 @@
             this.uC_GenerateExam1.Size = new System.Drawing.Size(1056, 886);
             this.uC_GenerateExam1.TabIndex = 0;
             this.uC_GenerateExam1.Load += new System.EventHandler(this.uC_GenerateExam1_Load);
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.TargetControl = this.instHomePanel;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.TargetControl = this.instHomePanel;
+            // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.TargetControl = this.instHomePanel;
+            // 
+            // guna2Elipse4
+            // 
+            this.guna2Elipse4.TargetControl = this.instHomePanel;
+            // 
+            // guna2Elipse5
+            // 
+            this.guna2Elipse5.TargetControl = this.instHomePanel;
             // 
             // Instructor
             // 
