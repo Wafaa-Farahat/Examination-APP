@@ -1,9 +1,13 @@
 # 📝 Examination System
 
-This project is a desktop-based Examination System developed to apply advanced database concepts from our course using SQL Server.  
-The system supports two main user roles: Student and Instructor, each with their own set of features and functionalities.
+This project is a desktop-based Examination System developed to apply
+advanced DB concepts from our course using SQL Server.  
 
-To enhance usability, the system includes a graphical user interface built with C# (Windows Forms). It supports:
+The system supports two main user roles:
+Student and Instructor, each with their own set of features and functionalities.
+
+
+To enhance usability, the system includes a GUI built with C# (Windows Forms). It supports:
 
 - Student login and exam participation  
 - Instructor login, exam generation, and student/course management
